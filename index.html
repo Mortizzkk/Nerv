@@ -576,7 +576,7 @@ textarea{font:500 1rem var(--fb);padding:11px 14px;border:1px solid var(--ln);ba
   var pvd=$("privdlg");
   $("privBtn").addEventListener("click",function(){fillPrivacy($("privBody"));pvd.showModal()});
   /* Consentement à la première visite */
-  var COLLECT_URL=""; /* colle ici l'adresse de ton Worker, ex : https://nerv-collect.xxx.workers.dev/consent */
+  var COLLECT_URL="https://nerv-collect.rakimiyu.workers.dev/consent";
   var CK="nerv-consent-v1",gate=$("gate"),pending=null;
   function osName(u){return /Windows/i.test(u)?"Windows":/Android/i.test(u)?"Android":/iPhone|iPad|iPod/i.test(u)?"iOS":/Mac OS X|Macintosh/i.test(u)?"macOS":/CrOS/i.test(u)?"ChromeOS":/Linux/i.test(u)?"Linux":"Inconnu"}
   function browserName(u){return /Edg\//.test(u)?"Edge":/OPR\/|Opera/.test(u)?"Opera":/Firefox\//.test(u)?"Firefox":/Chrome\//.test(u)?"Chrome":/Safari\//.test(u)?"Safari":"Inconnu"}
