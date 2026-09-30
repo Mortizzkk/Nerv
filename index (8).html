@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nerv Team – Bibliothèque manga</title>
+<link rel="icon" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAQDAwMDAgQDAwMEBAQFBgoGBgUFBgwICQcKDgwPDg4MDQ0PERYTDxAVEQ0NExoTFRcYGRkZDxIbHRsYHRYYGRj/2wBDAQQEBAYFBgsGBgsYEA0QGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBj/wAARCACgAKADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDwwVID3FQqaeGr9GPhWTqakWoc9KerUCLCtin7wqlmICjqTUug6LrvivxNF4c8KaRcavqsvIggHEa/35GPCKPUkV6mvhX4VfCyYjx7eL8Q/GMPLeH9Nk2abYv6Ty/xkeh5/wBjvXNWxUab5VrLsjenh5TXM9F3OD8K+E/F3jm6Nv4M8M6jrODtaeFNkEZ/2pWwo/OvQD8GLDw/g/E34teGPDMvVtO07OoXY9iBjB/A1U8Y/Ej4qa34S03UNRuH8MeDL+V7aytNCT7LalUIDjKHe+0Z4JUHBwODXWat8IPDnha4utB0Hwn4x8b63JZCcalbqllp0AkQlJd/Jcjrhm7YriqYiq7c0uW/bXbe7eh0wo00nyxvbv8A5LU59Yv2bNJXZIvxB8VSr/y0kdLGJvoMoani8U/AVPks/gPd3no1xrkhY/kTXQfCy4L/ALOOoalobeEdM12w1sRzat4gt4iqW7xqQu91bB3HgfUVZ8aeKovCHxt+G3jaKPTJfNsYv7R1bSVVLTUiW8uZkC/3VfnIB6elZbzcHzN6/afTXp3NL+6pKy26Lr6nKN4r+As64n+A1xAP71rrsm4fmRULxfs3aqu37P8AEPwpKekkciXsS/UZc4rsfF2kW3wk8HfEK/hEYufEWqHSdIJwdlkR50si/g5TP+yK85+GXhnQNfGveJvFk1wPDvh2yF5dQ2bbZbp2JEcSt2yQcn6dM5rSCg4OonJJebd/k/PQiUpqSg0n8l+hqJ8GtL8RMf8AhWPxe8NeI5cZXTdUVtPuz7AHOT+Arg/Fng/xl4DufJ8aeF9Q0dSdq3MieZbufaVMr+ua63xP/wAKp8TfDq817wzp7eFtc02eNTo11fG6W9hY4MkTMNwdc5IHYH610Xgq9/aG8O+B/wC29O0TVdd8JyRbn07WYheQSw9yqMfNC47rkY5wRVxrVqavzeVpWT+9aEunSm7cvzWq+7c8TEgdNysCp6EHOajYmvWx4e+FHxXlH/CGzp8N/GU33dHvX36VqD+kLj7jH0GD/sHrXl3iPQ/EHg7xPJ4b8X6RPpOqIMiKXlJl/vxOOHX3H48110sVGo+R6S7M56mHlBcy1XczyRk1GzUrNUTHJzXSYAxxURPenHNRZHrQNDQakBFQqwp4PpQMnDc103w/8B618SfENzZ6ddQ6XounL5useILriCwjxkjJwGkIBwueOpwBmqHgjwXrPxJ8fQeEdDlFqNn2jUdScZj0+2H3pG7bj0UdyfTJHuVymjar4LtPDHheyay+G2muf7Otm+/4inU/NfXJ43wbwdin/WEbj8qqK4cRiJc3sqe/fsddGgkvaVNjn9a8caf4a8ISeCvg9aXeieGJFzda5yNS104wZTJjdFCezcEj7oVeub8DL7wafiNJ4a8X+HtM1Cy1a2a1tDdL8sE/3gAf4d/Kl/vA7eetes+G/E2laV4B1Pwrq9rHJbXcUsl7c2t6EnEMoVSc7c/7JAOVGOor5h1mx8rx0uneEf7SvWkuFOmqsX+lOSdyAKmcuOOR6A8dBjTpx5JQtbz/AFLlKTkpfge/WmleCte+HHi/4e6TrUloqTteW2haywF1pF9HkNtk6SQOBgt2Byetcq/xB8PeMfh/4U0LX9U8YX2padaNZTeH9ALH7WVbajSdvuqORk81F4g8HeH9K19/Ff7QGt+b4hvUSSPwb4ZVTdyAKFBuJASI8gDPPP8Ae7U1/i54otdObSfh9oujfDjSCNvl6TCs17IPWS4cZ3fQZ96inFz/AISv59Pv6lzcY/G7eRsWPw1+Ld14T8RaNofw/Tw14Y1qaCcf8JFqCxSW3l4xgsdxyRk5X2qK++F2u3Pg7TPDPiH4u/C6ztNMeV7aF9TDyxmQ5cF1XJGe1ec3yz6xctc67qepazOxy0mo3ck5J+jHFVnttFsIDLJZ2UEY6s0agV1LDVnq5JfL/NnO69LZRb+f+R7BqXg3xb4kvNFmn+M3wt119H2/ZLZ9SEatgrw4K/PnYoOeoFSW3gj4u6JqniK+1P4fW/iPw54iTZqNr4YvIpFAByrQhTuUqc4GO9eI/a/C14dhOmuT0DKoz+ddfofgbxnBJDe+FdH8Taa8mDFc6WZrdWz0IYEKR+lRLD1Ir4181b8mVGtBvWDINa1rwJY6/oPh638F6hpEVtqMc+p3euA/bJYt43RleAIwMk8dvrn0y7g+JmsftYweKjcXtroFneR3EGppMVso9PTBwpB2kMoIK9ySTxzUOkav8Ytbs/7I8Y+BoPiRo6blKa/aLbXKBTg+XdYHzZGBnOT3rntR+G+l+MYbnR/hZ4i1vRdWgUvc/DzxPcNBMPX7O7HZKvpnIP8AeFYSmk7VV891r+RrGN1eH+R594w1bStZ+JPiHUNIgjXSrzUZ5oIivyGNnJHHYHqPTNeg6D8QNN1rwlF4F+Llnc+IvCu0Pb6kSW1LROOJo5OWliA6nllA5DrxXm3h6C80XxebXUYpNK1LT7qP7Sl5bkyWqgncWjPP93n0Oc45r6OfU/Clh8DrDTLewtGuL/zfss9hGgeB0bcjFjzwGVCQe5HTitq0YyjGKV+z7EU5OLcrnz/8Q/h9q3w11m0jur6LWfDupjzNG8RW2DDeIRkKxGQsgHOM4I5GR05RjzX0NYDTNC8G3+jeJrFtT+HOpHOs6aoJfRZCeNQtccpGGIMir9w/OoxuFeJ+PPBGrfDTx03hjVLkX1pNH9q0nVkx5eoWp+64I43jgMB35HBBN4evJS9lU36PuTWopx9pDYwWbIqJjzxSluKjzXccgwMQaZcTyxxqsELz3MjrFBBGMtLIxwqKO5JIFCkV6L8F7SxtfEeufFfXLQ3Ok+CoA1nbAZ+2apKNsEa+rDIx/tOlYV6vs4Nrc3oUvaTsep6D4Kh8K+E0+EUcpN7cxxar4/1K3fDSFwfJ0uNxyNwyGx0jVz1kFdbqUYnQARxooUIkcahURQMKqqOAoAAA7ACszQrO80fR/s+q3AudYupnv9Xugc+fey4MpH+ymFiUdljHrT9b1y30bQ5b+eKWdgVjhtoRmW4lc7Y4kHd2YhR9fauClDlV3uzqqz5nZbHIazYX+o61Z+F9EsE1DWtRZltLXavAH35Xcg7Il4LMfYDJIFYd74s034ZfbPC/wwv4tU8UyZh1vx08YYRH+K3sFOQoB4L89OST0m8Za9d+FDd+ALC/RfGmsxLL4u1m0bJ0632l00y1bsAv3iOpJY8t8vnFrJp0ccNp/ZkVtaY2KY929F6Z3E4Yjvxz7VrTg6+svh7dzOclRVo/EWrayt7Vmury7nku7o+dJK/76eYnnfI7Ecnrjk/SrulabqnibWZNL8MJHdGFQ91eXBMNvYqe8zHofRRkntUNvb6jrniaLw3pVykM15CXvLw7ZILa2QbWuAQc54G1eu4gd69S8NeHbnxT4n0n4U/D6SPQrTyZL25v51EjQQIyo9y4/wCWtw7OqqDwM+gretXVKLtokGHwrqvmkcy3hL4faJLFa+KvENzrN9MQEV7v+z7die0cS/vGHuxH0Fa/h7wloHh/XLjVodIspJ2f/RYpw1xFZqO6LKWzIepZs46KB1OZcnwob2/8J+E4DdWc2tHULvVdQ2z3zW1tthihebAI864iln8vjagUfxYq7fa/HYa1ptpNIAL2SSLn+8E3D9Rj8a56c3UXM0egqcI7JHTXl5qt45S5j0PVrY/8ueqWUWD7CQghfxAHqR1rJmlg8G7tV0DV7zwFOHCvaYkubCaQ9I5bRixXPrGfcA1JDqMRmJGyURsA6Hv3wfqDVfx9f6df2MBkDC2sHt7Sd1cpI1tKR5E+4crLDIyYYdmPoKcorsOUUz0/4Y/GfSfiBcS6FfPaWfiK2Ulre3n82C6QdZIHPJHqjfMvvzjz39ozVIdR8UaRoqJLFNp0ZuFvI1MciSvgr5cg5+VRng4y1Zej3Nt4n8Xap4a8ZWsCa/eWFxf6V4pi229y+pwRoIZYpFwRI6LiWE5VjHvUAuwr1f4W+P7P4n/C201W6jhe/jQWuo2zqGCTbBuIB/hdTuHsxHauSm/ZT5nHb9TGtTbjypni1h400rx5FZeF/ipqcdj4hjxBoXj2NAHVv4be+AxvQnjcfXqDydPSdH1TSPEt14Z8S2v2PW7DDTW27cjxsflmhb+OJ+SGHfIOCK9y1Dwj4R1Oxns7/wAM6TNDcReRKPsiAlMYxkDI46EdMCvE7BNWk8Ur8JfEl39n8TaSZJ/Amv3r7hdwdf7OuH/jjdQAD1BHqozpCrytuC93t280ZOnzK0nr3PQdKU22HUKSBghlDKQRggg9QQSCD1BIrmda8F2niXwy/wAH5pVhSUS6l4Dv5m5sLqNd02mM552YOUz1jb1iFa+g63DrGiLeJBLaTo7W91Zz8SWs6HbJC4/vKwI9xg9DTNesZtc0OTT7O7FnqSSpd6ZedPst7Ed0Mn03ZRvVXYVdWHOrrcijPkdnsfJ0Lzgy295byWt7byNBc28gw0MqHayEeoINOJPavRfjXbW+paloHxe0uy+x2viyM2ur2gH/AB5atBlJUb0LbGHuUJ715uSTXbQq+0gm9znxFL2c7dCrdXSWdhLcufliQufwr6I8N6MPDvgb4f8AgaVAJra2bxtran+O7mO20jb/AHWYtj/pgK8A0XRz4o8feHPCoG5dV1S3tpB/0z3hpP8Ax0Gvou71RNW8e+LfEMZHlXerNZW2OgtrNfIQD28zzz+Nc9f36ij2OikuSk5dWdCl1xySfc1zWpeKodAi1j4kXUaXFv4YkGmaFavyt3rcycyEdxBG2PYs/cUanra6R4evtWZfM+ywPMsf99gPlX8W2j8a82+KdzcaPrnhn4arKsq+FtPF3qLEBhNql3+9mdgeCQGwM9M1NSPM1TXUKVopzfQ56yS9a3uTc64LzUr2Vrm7YOf9Jkc5Zi5wC2e3p+VaE3nXEarci/gRFXMf2ZnRNq4yuDwMc/n1rEXUbkDGLfH/AF7x/wDxNVNZ1e7j8OXoV4l/cso2woMZGOw967rcsdOhyfHLXqeheA4l0/wXJquf9L16X7Q7EYItY2Kwp9CQzn6r6Vs6B461bwb8X5JfD1pb3OrapojWcElycw2RWcStcSqOWVVViFGNxAFYVlcpBHa6bEQEt7SJFA7KqhB/6CaxH1i00XxPr+s3RyYLSGDd3+clyo/BIx+frXFOKkrSPbjHlSSOu0/+ztEtbmOKbfJl76+uZAFeR2JZpGA4BOGwBwAMCl8B/DzxB8b9O1jVrDzrdNEsne0uMlUfUJHEgTPQhUCqfTd7VzXgTQr34m302irf/ZLIxnVPEepK6gWkGCVhUnjcVUDngYOa7zVpvC2lfBW38S+DPgxYT+F9zQ6bf+LtWuZbrVm3fM1rax5QfxMSxAIViAcV5+MxTX7qk9dPl+KOvD0E2pzV127/APDHDW/i2aDxPZRXsMlpduzadqFpKMNFOnKkj1zuH0Ip/iLUbrWNWvfCdiGku9St7GwiRQWZpZLghcAcnA2n8K7jx78G9H/4ZVsfjPp+jR+GdWgjhv7mytM+XLA8iqC6lmAZd2QVxxwQOgb4b+AfioaQnxd8VaHaXkMkBvk0TUbiW2S2iUMVmuXiBdVWJVIVQzFpMbeCaazKnKk5bO9vmEsHOM+Xdb/L/M5AXsialP4C8b2QGp2sr2syvlSZIjkOp6gshDqw9DXbfCXWbHRvjJZ6LpzbIr6wm0i7hzn9/ZAPBIfUtA2M98V4n488TaNr2u6N4q8N+FLrwveqrJe6cbma4hLw7WWSF5RkKUcjZk7cdgwroPAdx/Y/xc0D4kavdyQaFqN3qM0bCNm5hi8oYA6lt+B9DXRCbqU1danJXSi2uh9qNKD0NePfH+Dw5L4Itru/nltdft5fM0W5tjtlSZSDuzj7i8E579Oaztf/AGgtLhtzH4Z0u4u5mQ4mvB5SRt2+UZLevUfWvDNc13U/EOtT6trF21zdzEbnIwABwAAOAB6CtaOGle8tEedUxCtaJ7Xpfi5PENrovxNjRIDrso0LxNbJwtvq8SYhuMdhMg2H1Pl1001yDxmvDvhRL/aPirXfhrPMYrXxlpzx2rf88NStx5tvKPQ5X9BXpGi64+r+GbHU5k8uaeENNH/clHyyL+Dhh+FOmuVuD6BW95Ka6jta0RfEnhzx74DQBpNb08eK9HH/ADz1K1IS5VfQviJj/wBdWr5wsboXmnQ3S9JEDY9M19Irqo0jxf4W8SlsJpmtQpPnvb3Q+zSg+2Xib/gNeA+JtGHhb4o+KvCyrsj07Vp44R6RM2+P/wAdYVVH3Krj3Cr79JS7HS/A6OJ/2jdK1CYDy9I06+1Ns9ikJUH/AMers/C07r4E0Uyn97LZrdSH1eYtMx/OQ1wfwikNv4k8eXy/ftvBd8yn0LYFdhZTmDS7K34AitYIxj2iUf0ppXqSYTdqcUdFa2y654y8LaA/MN9rlv56+sUG65fPt+5A/GvEtX1yTxN478SeKJ2LPqmq3FwD/sbyqD8FUV7J4YuzF8S9Muwf+PLS9YvR7MtoFB/8fNfPmhkr4fs/UxBj9Tz/AFp01eq32QpaUV5nr/wtvvDjXF/aeKdI0q4sbe3+0C6uLYNJETIqct3X5x16Y9KPjd8OF0XSLvxBoMAXS51xNBH922fsR/sN29Dx0IrlPDbj+xfE5P8A0CG/9HxV6T8LPHFvq9kfAvinZcQyRmG1M/ImTHMDe+Pu/l2FaVE03JGcGtEzy7w1q4umSZ3+9Zp1/wBkkn+dYGv21zqXizUrN9wtmkhl4/jcxqqj6AZP41Z8R6TP4B+IF/4XnLLDBIWspX/5bW0mdhz7cqfcVI9+H8m8JBcBRJ/vL/iMGsU1JHr3uj0T4U6vJ8J/Hlh4r8PwPetaxtbarpkJHmXdo+C+wf8APVCA6f3sEd6+49Jj+HHxK+GFm2k22laz4WupftcMUC7YfN3FiSi42OGZiynBBJyK/POaOw1WNHe5kt5B8sN7bvtdG7DI7g87T1r2D9mbwnPc+L7uew+LutaB4oiIk1XQ44IHi1KIH5bhFdds0bDgtt3ocgkcE+HnGFjb2ydmengKrT9n0/rY+0ZdK0qbRU0eXTbSTTo0jjSzeJWiVUIKLsPGFKrgewrlvGGo67H4n0S00i1urqK6vIbK/tpYd9tPayk+c5PVWjRWO8HHIUhtwx1wfgZP41i2d/4lm8QGK60/R7axDNlBePJcqmPkkIEYTlsZXdwDncSMV8zFvc9hxWx8o/tZ2XgjSPE3gHwno1vaWEthb3s8tlart2xXGxIwR13O6sRnspPQVgfCvTtE1LQvEXw21C3Fzp1jJHf6cXO6SGG5TJCP1BWRG5965z9pPXLDVv2lryz0LwX/AGNc2UW2a/ubbyZ72aUYN1Jn5igUARg9RluAQKi/Zpv59T8TardPkraaPb2Tuf4m892X8dor7DALkw8F13Pmce1Oc2V/iP4D/wCEHv7N7e9lu7G7VgjyqFdXXG5TjjoQQfr6VxkcSPCZpp/Kj3bQQu9mPXAH5ZOe4r6V+J2h/wDCQeArjZAs11Yk3cMZz8xAIZeCDypP4gV82TQ3siIsenvFEpLBVyeTjJyTnsK9ujNzjrueBUgoy0Jo7p/Ct9oXjO2nRpNN1a3u433bG2I4D/KTnkMR3HHWvZtQiTSfiF4w0iIBbeHWpLm3UdBFcolyuPbMj14X4gt3uPDF/LPbSqVsTHsdAApVeGDE+2cdckivZvEN95/jj7cP+X7w7ot43uxgkQn/AMdFYVF+9T7o3jrRZT8UO1x4F1yGI/vPsEskeOzxjzVP/fUYrjvjh5Uvx7fWIR+71vRNP1PI7sY9hP8A46K6x5RNBLCTxJFIh+hRh/WuH+KMnnr8Mb0nLz+CrYMfXa2P60mrVIsdPWnJf1/Wg34SDzvEfjyxXl7nwZfKg9SMGt22vBLp9rKpyHt4mH4xqawPgpcRxftC6bZTECLVtPvNNbPffHkD/wAdo0qSWDQLC3lyJIIFt5AezRExMPzQ1UP4kkE1+7i/6/rQ7zwi5uPiJa2mcm60bWLRR6s1qrD/ANANeF6I+7w9ZH/pioP4DFeteEtYi0v4oeE9TuWxDDq0UMxPaOdXgbPtmRa87k0C80rxNrWgC3cf2ZqdzZs5GFULISCT2G0g/SiOlV+aCSvSXl/wTd8P6z4f07SdSt9SstTuJ7+3NqzQSxosa7g2VyMk5VevHFYTTCO7Mlo8qKr7omYgOuDkHI6H6U9YLFyES+YNnG94SsefrnIHuRVaRHhleKVSsiEqwPY10JHMdD8QfEUnxF8OaHaXFpt1ux3xtdjGLjdtCjjkZIyR0yciuJeS+0iR9N12zms7232rcQzrhgpHyvjupBHPvmtQH5ua9M1Lwbo3iT9nSz1q6R4tV022l+zXcX3tnmt+6cfxJyeO3bHNc9Wny6xOzDV7e7LY8gFy1tKEe7lthINsd1G3yuvZXHQ+2a7z4f8Ah/8A4SSFb3UfitB4Vv8ATL8R2zSW+yWFmG5JYp/MUIXG4YyMlSOa80Oj3lvbrp13c+Usjpu+0RsIYYnbas7SAfIufY5wa+jPhX8LvDcmnwau+oWyXbRGz1KxtNRt9U03VYev3SSyKeDgkFGGRxXj5livZU7Xs/kz6HLMN7eafLded0fYXgG8kXwbZ2d/41/4Su9RcPqckMUDzemVj+U49ep71oeNPF+leAfh9q3jDXyy6dptu08ijhpT0SNc/wATsVUe7V8VeMPgB4c0tptW8IePm8HAZY295eFbdP8AdcOrqPrurxWDULzVNWi0Txl4r1zX9EhvvvLqE0lrcxRuFeSAucE4zg4yAa8PCYCGJmuWf4W/4B6eOxMsJF80Pxv/AMH7y3L4l1zx94u1jxNdFbjxF4hvjFEingTS4VFX0SJOB6BR619SeDPBejeBrC5t9JB3XIg85yPvGKFYgR9dpb6sa8I8TfCiLwppMnjCxu45o576R44bXIhs7eRsw+WepONoLe4x6n034bfEGXXdPi0zXSwvgTFBdsMLd7QCVz08wAgkdxz619dGlaCtsj4+viOaVj0m5JntZYRIYzIjJvAyVyCM49s5r5N1n+19F1680i6vXM1pKYWYYw2OhHsRg/jX1Y0uOeK+WfHNk+nfEbWraR95N00ob1D/ADj9Gx+FbUN2jkqrqc5rOp3p8P3yyXUjKYHBBxz8pr2XxMTZ+MYLJuDaeGdFtmz2YQyuR/48K8Y/s+XW9S0/QLZS02p3sFkijqd8gB/TNereMtUiv/ix4suoGBgXUfsUJB42W0SQj/x4PTlrVSLjpSf9dhpvBHG8hONkbufoFJ/pXNfE8+Unwxs2GHg8GW5Yem5s0/VbmQaBqPkn941rJFHjuzjy1H5uKT41PEvx1bSIWBj0XRrLTQB2KpuI/UUp/wASKHT0hJ/1/Wpxmm6w3hrxxoPiRW2/2dqEM7kf3N2H/wDHSa9E8aWg0f4n+IdPjwIGvTf25HQw3KiYEe28yj8K8t1GBbi0kibo6lTXo+p6g/ib4S+E/GmQ91Zxnw5qp7h1O6B2+pDDP/TUUS92on3HH3qdu39f5mPeb7qxmt432Suv7t/7rg5Q/gwU1qfEm8S48WaT4+tbeM6f4x0uO6nQ5G28hAiuIiR0OQprnDcZ74rqfDMH/CY+DdW+HQaMarHMfEHhtpMYN0g/f23PaRfmA9WPpRW0amug6OqcGc88Uc8qadHeNCkYYGJ0Y7ur7vl4JxgHPccVWuZYrm1knLpI6OirOq7PNBU8MP7wwOf58VHbXtvqKrqEssVvcsdz7ZWidZM8hl2HawOc4PWrdhF4j8Q6qNF8JafqXiO+zuNppMD3Tx5/ibCAJ9eK1dSMVzN6GSpyk+VLUzsOEDlHC/3sHFe16Nd3Fr+zS9zazyQTxWsrpJGcMp808g1l6R+zr+0RcqNTuPCkGh2kYMstxr+sxQoiKMs0iqzMFABJ46ZrJl0rxP4g+EK317r5ig1CY6fonh7w/ai2j1CWSUxwMXb52R2y+3A+UZOM15mMzfDUVG8r3aStrdno4PJ8TiHLlVrJt36JB4b8Ma/8QPDHij4kz+IG0aLS5dK0FL2RVaC/nknETGbdxiNJUJII7eprb+JPwM8W/C3To/EnivR/Bmv6FLdx2b6lZWJjliMmRHI6/wB1iAudx5Yete/+MvBPg1fD/wAOv2XtZu4tG0eS0F/qt1E62YvZIE2rFDI42vNLcMZWAy22Pn7wr1Twt8GPB/hT4NXPwuuX1PX/AA3P5nmW2vXHnlY22ny1KhdqAqGUDGDkg14uIcK0nNrV/fb1PawmLq4aMYRleK6PVfc+58U/Dr4K+Kvilb3es+DfDPgvSdHtLtrI6nqFkZZJJEAMhjQ5yFJwTkcg+lc78Qfh5qugeA9B8d3HiBtatP7c1Lw/dSQIi2trLDIUiaLZkBZBGxySecCvvzXPg74M134KL8LNNXUfD3hvChYNBuDA5QOXKFmDFlYkls5LdzXlHgPwT4I0qXx/+zDpd7Hrfh+7sTqVk80iXrWEsiCKaKdkG2ORJVjnTO04Y45Wlh3CjJTirtdXv97Hi8XVxMZQbtF9Fovwte3meH/DfVLbxb8Nb3wbqTbntojDz1MLfcYe6tx+C15x4rn/ALJubDwzZ3Of7HU+dNCSN92x3SOD7YVQf9mtfSvBuueBfBFz4z8O6zcW+u6E8mna9oepQC4SKSJwk5VlIYKBiULg/L0JrV1D9mv48mxXXLHwxpviiyu0F1HfaHq0UouEf5hIqyFGIYHPTvXt4XNsLWcrStZ2afRniYrKMTh+XmjdNXTXVHU/Dz4ip4ktV0nVZFTV4l4Y8C6UfxD/AGh3H4jvjxvxq4/4WNrm05H22Tn8az9X07xJ4M8QRWHibQ9Z8M6mG3wx6jbvbsSP4o2PDfVSapaxqstzd3Wq3zb55nMshRcb2PoB3J7CvQpuD9+L0POlCafJJanXfC4w2fxBu/G96u7T/B+nS6rJno1yymO3j+pYkge1U7Z5o7ONbl91ycyTtn70rkvIf++matbW7RvBXw70r4fy4Gs38qa/4jAPMbY/0W1P+6PmI9VPrXLtcMDkmppe83M1q+6lBHXeErMa78RfD2juMxTahHPP6CG3/fvn2yiD/gVcNr2snxL8S/EfiPduS+1GVoz6xqdifoortdCv28L/AA28WeOydtwIP7A0r1aeUhpmH0/dj/gDV5ppsAtrGKEfwKBmiHvVb9hS92nbv/w/+RbcAxnOK6D4a6nYxa/qngXXJTHovimH7P5n/PvdLzHIPfIGPdVrB4Oazb+2MkGVco6kMjqcFWHIIPqDWlWHMiKM+V6m5fQX+mandabqkYivrSVoLhB03r1I/wBlhhge4YVDDf3dlfW+oafdPa3trKtxb3C9YpF6H3HUEdwSK6TULo/EHwIviuFAfEekRC21q2QfNcQqDsuFHcqMn3XcP4BXCm44zuznuD1rJS5lZmzjyu6PTPEWk6B4yms/iRbXkuh6He3ccHjKKzgM8ukTEjzLmOMclJBznHBIPcgfoB8DL/4SH4TxWvwdjig0W0k+zzwtA8NyJtoYm4DgO0jAhtzZyCCOK/Mvwv4w1Pwd4g/tfTlinjkjMF5ZXHMN7AfvRSA8YwTg9voSK97+D/xF0v4WLqnjPwhp15r3gXUdr6lpVu+/UdDmjRgilWPzwYYjPYEHJA58rHYaVRKz2PQw1ZLSx7d+1F4j1C81/wAJ/DWO+kt9D1i3vNQ1iCA7Xu4oGiWOBnHIiZnO4D7wAGcZrn/gL4esfGXx913XdReQReC4LOLR7SNVEMM9zE5kmKkEFgihF/ugnHPNfHvxP+O3jn4peN08SajdRaX9nt5LS0t9NzGILd33lC+dzkkDLHGcdAOK+tP2HPBfjzw14Z8Q+KfEtk1po3iJLaawF05+0ztGXHnbDyI2V+CxBbAIGOa8Spl7jWWInLRKyXm3q/u0PejmUFgnhYRtJu7fdLZffqfWWr6No/iLRJdH8RaVY6tYSjElrfW6zRP9UYEZ968X8VaZd/A6a01fwzc6zceAr5/sOqaTLLNfrorNzFd2wO+RIcgxvGCVG9GAGDXtwmHrXz/8cPHPijQvjB4d0bQfFN3o6SWVvepFHPHFHct/aMcUsZVlJndo2CLGvQM7npWkLqSsec9VZmj4WtL3443t7ea1fa1afD3Tn+x2On20k+nHXpuWlnnOElNum5Y0QEKxVycjAr2bQ9B0Pwxokej+GtHsNI0+P7lrYW6wxqfXaoAJ9zya8K+EPjvxT4i/aG8Sabqfim5v9Phg1JH02eeOQ208Gp+UjhFAMKGJwiKxy/lu/pX0AZQO4/OnUu3qC0VkfL3x80Kz8H/HPwx4t06SUN4u+06drMDBTFcSQW4eCXaBw4XchP8AEuAa0P2ZfEF1pHj3xP8ADJL2WXw/Z6fb6xpNnN8xsfNmkSaGNjz5W4KwU/dJOOtYn7b3grx54t8AaBrfhSz+26Z4ekuLzUY7Zz9qj3KqrKqjlkVVfdtORnOMZI+Nfhx8bvHXwz8dDxTpV9HqUzWosp4tTBmWa33iTy92dy8jIYHI9xxWNPLpTrfWIS3VmvNPR/dp6HovMYfUvqs43kndPsnuv1P0++M+pfCyH4T3MPxcggutBupBbJbNbvcTSzEEqLdUBcSAKzBlwVAJJABr89dA0Pwx4Y1K/wDiU9/ca34S029ePwnDfQmCfWZxzG7oedkXOWwASpOBjFenfFv4mWPxZ0zRvE/inTL/AMPeAbAm4trOd9uo63cPFseKJVPyQYJUt1YZPAPHz/4p8W3/AIu11dQuoYrK1t4xb2Gm2/ENjAOBGg6ZwBlu+PQCvcwOGlBO736Hg4msmrWC61S+1PVbvVNUuTc397M1xczH+N29PRQMADsAKdaRXuoajb2Gmw+fe3MqwW8R6PIxwufYcknsFJrEE+B1H1rudHuR4C8EN42u4wdc1KNrbQrSQcxo4+a4Ydtw6f7GP79es58qsjz1Hmd2Q/Eq+tE1TSPh5o85m0vw1HieYf8ALzePy7n3yWPsWI7VzkYCriqFjC6ozzSNLNIxkkkY5Z2JyWJ9zV8dK0ow5Y6mNad3ZAM5qNxuGMU/vS89K0MSrper6n4U8TQa/o7fvouJIiflmj7qf6Hsa2fEej6ff6SfGnhFAdGmO66s1HzadIT8w29oyT/wEnH3SDWTLGHUiodK1jVPCusNqGl4eOT5bi1f7k69MEeuCeffByK5qkLao66VTm0Z6F+z/wCHrPX/AIrQ6jfr4eubbR2ju57LW5pI4ym8Dz8KNsgjO3927KGZl5IBFeteIPAsGu6zrPxX8EeII/BEtkkVlYaQ/wBkjhlnMfFjdvvTyrgzCUv5wwQ8exzxXgsinVvDF4fh/KsVlczxXOpaJtAmDRnIVT1aMH5vLz1GVz0HceLvjlfX+j33hnwvqcd7qniGVo7zV3jFn5ELOVjsn8wfPGiO4PmkhC2QRtGOCtTk5c8XY7acklytaHN2134F8V6vpviS90yx8HeIBciaP7batLoeqyRuCyuvG3JGGAOOec19e6J+1CthDHH8VPCF9oDMB/xOtGU6jpcg7MGT95EPYqceted6RpXgPTvgxo3w+i1DT72wvpIbjV7I3YmBhlUl2tppE2xtuXesxRWZMpG5baa858U+GX0f436T4U+Cuv6jY3+uOtxLosI83SrSF+RJbTyEC4j2fOQF45AZiMVhNRqO01bzNItpe6z7i8N/EzwL4xthP4W8Y6JqwP8ADa3iFx9UJDA/UVuQahaagTLAkd19mmeLzRGH8uRThgGxwQeDjuCO1fAN74A8f6m93Pqvws8MeIlglnQXkUR0+6kSK5EG9tvEZJJfDMCqKzNtAGcTwlDeazbXS+D/AIefEKEWl0LSePSPEMsaxztkiPazr85wTgDJ5rF4WG6ki/aS2a/I/Rue/stOBuZ0itfOlSJpjGE3ux2qGbHJJIAz3IHesXxJ8R/BXhC3aXxT4u0XR1Ha8vERj9EzuJ9gK+A9cttRj8Dy+Jdc8AfEO70ZIo53n1bxI7RbHcLG7LvLbS2ADjrTfBXh7xj4w0fU9Y+HPwc0ayawgS4S7vreWaW73uExBLMAjMM7jlh8oJ5prCwtdyQvay7fkfUOuftSW92jxfCrwpqHiSVOmsaiDp2mRf7RkkAeQD0VRn1r4/1PVPh74a8T6h4kuLPSvFfie5uJLo2WnwfZ9G0+RiWIROTIAei8j2FQ3U+tH462Pgz456jqkenQX8dpqtnaXaILVXAAYeXlMLuViOTgEcGui1/4Zx6/pnh7Q9FsLPT9f8P6u/hHxC1rCFSRRIz2+osB13Rl9zd9q10U6dOm/dW/UzlOUlq7FyW68IeGtYsvFvxlv7f4geJ7xYntvC2n3QNjptvJghrmZDt3bTlYIyecFzXBfFfQ7Dwl8bPE/h7Scf2da37/AGRf7sL4kjX8FcD8K5rSZdA0f4gRHVhNqukWV42RZKEN2Ec7cBjwrEAnvg11WqRreeJNQ8ffEcGJtQuGuYtIU/vZifuqw6qoG0beCcc7R16KUWnzXuZTa0Viv4Z0XT4tKbxj4sHl6DbnMVu33tRkB4RR3jyOf7xGBxuIzNY1rUfF/iaXX9VBVm+SC3H3bePso9/U1Bq+r6n4p1VLzUAIreH5bWyj4jgXoOBxnAH06DAqWGMItddOHM7s5qs+VWRIihVGKeDSZGKUc10nG2JkUvamij8aAFIzUEsQYdKmzSEccmhoE7GWY7myvlvtPuHtrlPuyR9x6Edx7GtoeItH1m5hk8S2o07VomVotWtUDKzA5BkUghunRs/UCqzIGGDVWa0R1wADmsJ0+x0wrdz0XSPEfizw/rVz4gS6a6mvozFN4i0RfNuo4cAIi2xYRqqhcAhWwCcVB4I8e2M/x8v/ABg2jxQtY2k8ukWbsqR2TKp2gR8DezHouAGkY4rzaBb7TJvO0y9ntGznEbfKfqvStGXxRd3aCPX9C07VgP8AloUCSfn1/Wud011OlTT/AKt/X3n1H4a8Z2Ok6MFis41XTUhkY20cckVnOHZpbdHQI0jLMUOCXLEjknJHFfBPx3Ppg1LUoI7cJqXjEXbRzMVb5YJHVUDyL85ZlGGLd+Grxmz1vw5ZlXsH8S6DIFZc2dyxUBvvADng4H5UWOoaJp1i1ppPjrWdPgaRpWjSLaSxTYTuGDyvFZulF9ilJq+57z8SvEV3b/DTXfA0l5b3dvD4XjBmChHkeG8iZXCLIwVCrcZUHKnk9B5/8Ltc0yHWPDQ17xnqOu6iP3Oj6NJLI9lpDqreU8yyHYxVgpWNRt6E5rh4tS0W30OTRR491p9NlUI9okfyFc7toBzgZ5wODWereB7Y5isdZ1Jh2kby1P5BaFSitNB8zt1HeKdb0LW7y1ul0fUrXWXmY6vcTX5uvtkmRvkXcAVdm3k9skY4rsZ9a8a6p4v8S+INOmbw1peuoIriS/wH8lVCggdd2AfmGPvHmuVTxPNaqV0Dw/p2ldvNK75Pz6/rWbc/2jq03m6rfT3bZzh2+UfRRxVxp20JlUX9amzDq3h7w0PL8K2p1TUwMHU7pfki/wCuY7fhz/tVklbvUNQa+1K5e5uW6yP29gOwqWG0VFAC8DsBVxEAHSuiFLuc063YSKIIvSpaARQSK6EjmbuOGMUh4NN6Dk0nNBNj/9k=">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Bangers&family=Fredoka:wght@400;500;600;700&family=Zen+Dots&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0a14;--s1:#14142a;--s2:#1e1e3c;--tx:#f4f3ff;--mu:#a09ec4;--ln:rgba(255,255,255,.12);--g:linear-gradient(120deg,#151515,#ff4fa3 40%,#7a3cff 68%,#29d3ff);--gt:linear-gradient(120deg,#f4f4f4,#ff4fa3 40%,#7a3cff 68%,#29d3ff);--ac:#ff3d9a;--ac2:#22e1ff;--gl1:rgba(255,61,154,.32);--gl2:rgba(34,225,255,.26);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f5ff;--s1:#fff;--s2:#ecebfb;--tx:#16153a;--mu:#63618a;--ln:rgba(22,21,58,.14);--gl1:rgba(255,61,154,.2);--gl2:rgba(34,225,255,.2);--gt:linear-gradient(120deg,#0b0b0b,#ff4fa3 40%,#7a3cff 68%,#19b8d8)}}
+:root[data-theme="light"]{--bg:#f6f5ff;--s1:#fff;--s2:#ecebfb;--tx:#16153a;--mu:#63618a;--ln:rgba(22,21,58,.14);--gl1:rgba(255,61,154,.2);--gl2:rgba(34,225,255,.2);--gt:linear-gradient(120deg,#0b0b0b,#ff4fa3 40%,#7a3cff 68%,#19b8d8)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:80px;scroll-behavior:smooth}
+body{margin:0;color:var(--tx);font-family:var(--fb);line-height:1.55;min-height:100%;
+background:radial-gradient(60rem 38rem at 88% -8%,var(--gl1),transparent 62%),radial-gradient(48rem 34rem at -8% 30%,var(--gl2),transparent 60%),var(--bg);background-attachment:fixed}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid var(--ac2);outline-offset:2px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 70%,transparent);border-bottom:1px solid var(--ln)}
+.bar{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-family:var(--fd);text-decoration:none;color:var(--tx);display:flex;align-items:center;gap:10px;font-size:1.05rem}
+.logo i{width:26px;height:26px;border-radius:8px;background:var(--g);transform:rotate(12deg);display:block}
+.logo b{font-weight:400;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{font:700 .95rem var(--fb);text-decoration:none;display:inline-flex;align-items:center;gap:8px;background:var(--g);color:#fff;border:0;border-radius:999px;padding:11px 22px;cursor:pointer;box-shadow:0 8px 24px -8px rgba(255,79,163,.7);transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px -8px rgba(255,79,163,.85)}
+.btn.ghost{background:var(--s1);color:var(--tx);border:1px solid var(--ln);box-shadow:none}
+.acct .btn{padding:6px 16px 6px 6px}
+.acct .btn:not(:has(.av)){padding:10px 18px}
+.hero{display:grid;grid-template-columns:1.15fr 1fr;gap:30px;align-items:center;padding:56px 0 64px}
+h1{font-family:var(--fd);font-weight:400;font-size:clamp(2.7rem,8vw,5.6rem);line-height:.98;margin:0 0 18px;letter-spacing:-.01em}
+h1 span{display:block;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag{max-width:46ch;color:var(--mu);font-size:1.12rem;margin:0 0 26px}
+.stats{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.stats div{background:var(--s1);border:1px solid var(--ln);border-radius:18px;padding:12px 20px}
+.stats b{display:block;font-family:var(--fd);font-weight:400;font-size:1.9rem;line-height:1.1}
+.stats span{color:var(--mu);font-size:.85rem}
+.posters{position:relative;height:400px}
+.ps{position:absolute;width:clamp(150px,22vw,210px);aspect-ratio:2/3;border-radius:22px;padding:16px;display:flex;flex-direction:column;justify-content:space-between;color:#fff;box-shadow:0 30px 60px -20px rgba(0,0,0,.6);border:1px solid rgba(255,255,255,.25);overflow:hidden}
+.ps::after{content:"";position:absolute;inset:0;background:radial-gradient(rgba(255,255,255,.2) 1.3px,transparent 1.5px) 0 0/10px 10px;-webkit-mask:linear-gradient(200deg,#000,transparent 65%);mask:linear-gradient(200deg,#000,transparent 65%)}
+.ps em{font-style:normal;font-family:var(--fd);font-size:2.3rem;writing-mode:vertical-rl;line-height:1;position:relative;z-index:1}
+.ps span{font-weight:700;position:relative;z-index:1;background:rgba(0,0,0,.35);padding:2px 12px;border-radius:99px;align-self:flex-start}
+.p1{left:2%;top:50px;background:linear-gradient(160deg,#7c5cff,#2b1a7a);transform:rotate(-8deg);animation:fl 7s ease-in-out infinite}
+.p2{left:32%;top:0;background:linear-gradient(160deg,#ff4fa3,#7a1a52);transform:rotate(4deg);z-index:2;animation:fl 8s ease-in-out -2s infinite}
+.p3{right:0;top:80px;background:linear-gradient(160deg,#29d3ff,#0f4a8a);transform:rotate(11deg);animation:fl 9s ease-in-out -4s infinite}
+@keyframes fl{50%{translate:0 -14px}}
+.tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:18px}
+.tools h2{font-family:var(--fd);font-weight:400;font-size:clamp(1.5rem,4vw,2.1rem);margin:0 auto 0 0}
+input,select{font:500 1rem var(--fb);padding:11px 14px;border:1px solid var(--ln);background:var(--s1);color:var(--tx);border-radius:14px;min-width:0}
+input[type=search]{border-radius:999px;padding-left:18px;min-width:230px}
+.note{border:1px dashed var(--ln);background:var(--s1);border-radius:16px;padding:12px 16px;margin-bottom:18px;color:var(--mu)}
+.team{display:flex;gap:10px;overflow-x:auto;padding:4px 4px 12px;margin:0 -4px 6px}
+.mem{display:flex;align-items:center;gap:10px;text-align:left;border:1px solid var(--ln);background:var(--s1);color:var(--tx);padding:7px 18px 7px 7px;border-radius:999px;cursor:pointer;flex:none;font-family:inherit;transition:transform .15s}
+.mem:hover{transform:translateY(-2px)}
+.mem small{display:block;color:var(--mu);font-size:.78rem;line-height:1.2}
+.mem[aria-pressed="true"]{background:var(--g);color:#fff;border-color:transparent}
+.mem[aria-pressed="true"] small{color:rgba(255,255,255,.85)}
+.tabs{display:inline-flex;background:var(--s1);border:1px solid var(--ln);border-radius:999px;padding:5px;gap:4px;margin:6px 0 14px;max-width:100%;overflow-x:auto}
+.tab{font:700 .95rem var(--fb);border:0;background:none;color:var(--mu);padding:9px 20px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.tab[aria-pressed="true"]{background:var(--g);color:#fff}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.chip{font:600 .88rem var(--fb);border:1px solid var(--ln);background:none;color:var(--mu);padding:6px 16px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{border-color:var(--ac);color:var(--tx);background:var(--s2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:24px;padding-bottom:80px}
+.card{background:var(--s1);border:1px solid var(--ln);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-6px);box-shadow:0 24px 40px -20px var(--ac)}
+.cover{aspect-ratio:2/3;position:relative;background-size:cover;background-position:center;overflow:hidden}
+.cover::after{content:"";position:absolute;inset:0;background:radial-gradient(rgba(255,255,255,.16) 1.3px,transparent 1.5px) 0 0/10px 10px,linear-gradient(to top,rgba(0,0,0,.5),transparent 45%);pointer-events:none}
+.kj{position:absolute;right:8px;top:6px;font-family:var(--fd);font-size:3rem;color:rgba(255,255,255,.22);writing-mode:vertical-rl;line-height:1}
+.vt{position:absolute;left:14px;bottom:14px;z-index:1;writing-mode:vertical-rl;font-family:var(--fd);color:#fff;font-size:1.4rem;line-height:1.1;max-height:80%;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.5)}
+.badge{position:absolute;top:10px;left:10px;z-index:1;background:rgba(10,10,20,.72);backdrop-filter:blur(6px);color:#fff;font-weight:700;font-size:.74rem;padding:3px 11px;border-radius:99px}
+.badge.st{top:auto;bottom:10px;left:auto;right:10px;background:rgba(255,255,255,.9);color:#16153a}
+.k-Manga{background:#7c5cff}.k-Webtoon{background:#ff4fa3}.k-Anime{background:#0aa5d8}
+.info{padding:14px 16px 14px;display:flex;flex-direction:column;gap:2px;flex:1}
+.info h3{margin:0;font-size:1.05rem;line-height:1.25}
+.info small{color:var(--mu)}
+.row{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:10px}
+.stars{color:#ffb347;letter-spacing:1px}
+.del{background:none;border:0;color:var(--mu);cursor:pointer;font:600 .82rem var(--fb);text-decoration:underline;padding:4px}
+.empty{grid-column:1/-1;text-align:center;padding:56px 12px;border:1px dashed var(--ln);border-radius:22px;background:var(--s1);color:var(--mu)}
+.empty b{color:var(--tx)}
+dialog{border:1px solid var(--ln);background:var(--s1);color:var(--tx);padding:0;width:min(480px,92vw);border-radius:26px;box-shadow:0 40px 80px -20px rgba(0,0,0,.7)}
+dialog::backdrop{background:rgba(6,6,16,.7);backdrop-filter:blur(4px)}
+form.add{padding:26px;display:grid;gap:14px;max-height:90vh;overflow:auto}
+form.add h2{font-family:var(--fd);font-weight:400;margin:0;font-size:1.5rem}
+form.add label{display:grid;gap:5px;font-weight:700;font-size:.9rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.acts{display:flex;gap:10px;justify-content:flex-end}
+.av{width:var(--s);height:var(--s);border-radius:50%;display:inline-grid;place-items:center;flex:none;overflow:hidden;border:2px solid rgba(255,255,255,.35)}
+.av svg{width:100%;height:100%;display:block}
+.picks{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-height:300px;overflow-y:auto;padding:4px}
+.picks button{border:1px solid var(--ln);background:var(--s2);padding:8px;cursor:pointer;display:grid;place-items:center;border-radius:16px}
+.picks button[aria-pressed="true"]{outline:3px solid var(--ac2);outline-offset:1px}
+footer{border-top:1px solid var(--ln);padding:28px 0 36px;text-align:center;color:var(--mu)}
+footer b{font-family:var(--fd);font-weight:400;color:var(--tx)}
+.copyr{margin:14px auto 0;max-width:34rem;font-size:.78rem;line-height:1.5;color:var(--mu);opacity:.85}
+.pcard{margin:0 0 14px;padding:14px;border:1px solid var(--ln);border-radius:16px;background:var(--s1)}.pc-top{display:flex;gap:14px;align-items:center}.pc-top h3{margin:0 0 8px;font-family:var(--fd);font-weight:400}.pc-stats{display:flex;gap:8px;flex-wrap:wrap}.pc-stats button{background:var(--s2);color:var(--tx);border:1px solid var(--ln);border-radius:99px;padding:5px 12px;cursor:pointer;font:600 .8rem var(--fb)}.lockb{font-size:.72rem;color:var(--mu);border:1px solid var(--ln);border-radius:99px;padding:2px 8px;font-family:var(--fb)}.stabs{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.stab{padding:6px 14px!important;font-size:.82rem!important}.stab[aria-pressed="true"]{outline:2px solid var(--ac2)}.srow{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--ln)}.srow .nm{flex:1;font-weight:700;cursor:pointer;overflow:hidden;text-overflow:ellipsis}.srow .btn{padding:6px 14px;font-size:.8rem}
+.fbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 12px}.flab{color:var(--mu);font-size:.85rem;font-weight:600}
+@media (max-width:820px){.hero{grid-template-columns:1fr;padding:34px 0 40px}.posters{height:330px;order:-1}.ps{width:130px}.grid{grid-template-columns:repeat(2,1fr);gap:14px}.tools h2{flex-basis:100%}input[type=search]{min-width:0;flex:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.msearch{margin:0 0 12px}.msearch input{width:100%;max-width:380px;border-radius:999px;padding-left:18px}
+.err{margin:0;color:#ff6b81;font-weight:700;font-size:.9rem}.nomem{color:var(--mu);padding:10px 4px}.hint{color:var(--mu);font-size:.82rem;font-weight:500}
+.art{position:absolute;inset:0}.art svg{width:100%;height:100%;display:block}
+.ps .art~em,.ps .art~span{z-index:2}
+.p1 em{color:#111}
+.vt{text-shadow:0 0 8px rgba(0,0,0,.9),0 2px 10px rgba(0,0,0,.8)}
+.tab{display:inline-flex;align-items:center}.ti{width:20px;height:28px;border-radius:5px;overflow:hidden;display:inline-block;margin-right:8px;flex:none;border:1px solid rgba(255,255,255,.3)}.ti svg{width:100%;height:100%;display:block}
+:root{--fd:"Dela Gothic One",Impact,sans-serif;--fb:"Zen Kaku Gothic New",system-ui,sans-serif}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:var(--pat,none)}
+.btn{color:var(--bt,#fff);border-radius:var(--br,999px);box-shadow:0 8px 24px -8px var(--sh,rgba(255,79,163,.7))}
+.btn:hover{box-shadow:0 12px 28px -8px var(--sh,rgba(255,79,163,.85))}
+.tabs,.tab,.chip,.mem,input[type=search]{border-radius:var(--br,999px)}
+.tab[aria-pressed="true"],.mem[aria-pressed="true"]{color:var(--bt,#fff)}
+.card,.stats div{border:var(--bw,1px) solid var(--cb,var(--ln));box-shadow:var(--cs,none)}
+.card{border-radius:var(--rad,20px)}.stats div{border-radius:calc(var(--rad,20px)*.8)}
+.card:hover{box-shadow:var(--csh,0 24px 40px -20px var(--ac))}
+dialog{border-radius:var(--rad,26px);border:var(--bw,1px) solid var(--cb,var(--ln))}
+.ps{transition:scale .35s,opacity .35s,filter .35s;cursor:pointer}
+:root[data-kind="Manga"] .p1,:root[data-kind="Webtoon"] .p2,:root[data-kind="Anime"] .p3{scale:1.15;z-index:4}
+:root[data-kind="Manga"] .ps:not(.p1),:root[data-kind="Webtoon"] .ps:not(.p2),:root[data-kind="Anime"] .ps:not(.p3){opacity:.5;filter:saturate(.7)}
+.wipe{position:fixed;inset:0;z-index:60;pointer-events:none;clip-path:polygon(130% 0,130% 0,130% 100%,130% 100%);display:grid;place-items:center}
+.wipe span{font-family:var(--fd);font-size:clamp(4rem,22vw,14rem);color:#fff;line-height:1;text-shadow:0 10px 40px rgba(0,0,0,.35)}
+.wipe.go{animation:wp .8s cubic-bezier(.7,0,.3,1)}
+@keyframes wp{0%{clip-path:polygon(-30% 0,-30% 0,-40% 100%,-40% 100%)}45%,55%{clip-path:polygon(-30% 0,130% 0,130% 100%,-40% 100%)}100%{clip-path:polygon(130% 0,130% 0,130% 100%,130% 100%)}}
+
+/* Thème Manga : comme Anime, mais uniquement noir et blanc */
+:root[data-kind="Manga"]{color-scheme:dark;--fd:"Zen Dots",system-ui,sans-serif;--bg:#0a0a0a;--s1:#161616;--s2:#242424;--tx:#f5f5f5;--mu:#a8a8a8;--ln:rgba(255,255,255,.28);--g:linear-gradient(120deg,#ffffff,#9a9a9a 55%,#e6e6e6);--ac:#ffffff;--ac2:#bdbdbd;--gl1:rgba(255,255,255,.14);--gl2:rgba(255,255,255,.07);--sh:rgba(255,255,255,.4);--bt:#050505;--rad:16px;--bw:2px;--cb:rgba(255,255,255,.6);--cs:0 5px 0 #000,0 0 16px -4px rgba(255,255,255,.4);--csh:0 5px 0 #000,0 0 34px 0 rgba(255,255,255,.6);--br:12px;
+--pat:radial-gradient(1.5px 1.5px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 60% 20%,#fff,transparent),radial-gradient(2px 2px at 80% 60%,#ddd,transparent),radial-gradient(1.5px 1.5px at 35% 75%,#fff,transparent),radial-gradient(1px 1px at 90% 88%,#fff,transparent),radial-gradient(1.5px 1.5px at 8% 55%,#bbb,transparent)}
+:root[data-kind="Manga"] body::before{background-size:320px 320px;animation:tw 4s ease-in-out infinite}
+:root[data-kind="Manga"] h1{font-size:clamp(2.3rem,7vw,4.8rem)}
+:root[data-kind="Manga"] h1 span{filter:drop-shadow(0 0 14px rgba(255,255,255,.55))}
+:root[data-kind="Manga"] .tools h2{font-size:clamp(1.3rem,3.5vw,1.9rem)}
+:root[data-kind="Manga"] .cover::after,:root[data-kind="Manga"] .ps::after{-webkit-mask:none;mask:none;background:linear-gradient(120deg,rgba(255,255,255,.3) 0 12%,transparent 12% 18%,rgba(255,255,255,.16) 18% 24%,transparent 24%),linear-gradient(to top,rgba(0,0,0,.6) 0 18%,rgba(0,0,0,.28) 18% 36%,transparent 36%)}
+:root[data-kind="Manga"] .btn{box-shadow:0 4px 0 #555,0 0 22px -4px var(--sh)}
+:root[data-kind="Manga"] .btn.ghost{color:var(--tx)}
+:root[data-kind="Manga"] .stars{color:#fff;text-shadow:0 0 8px rgba(255,255,255,.7)}
+:root[data-kind="Manga"] .card[data-k="Manga"]{--kc:#f5f5f5}
+/* Thème Webtoon : même structure que Anime, couleurs Webtoon */
+:root[data-kind="Webtoon"]{color-scheme:dark;--fd:"Zen Dots",system-ui,sans-serif;--bg:#1b1030;--s1:#2a1750;--s2:#3a2270;--tx:#fff0fb;--mu:#c9a8ee;--ln:rgba(255,140,220,.3);--g:linear-gradient(120deg,#ff3d9a,#ff9f45 35%,#7c5cff 70%,#19d3ff);--ac:#ff4fa3;--ac2:#19d3a8;--gl1:rgba(255,61,154,.3);--gl2:rgba(25,211,255,.24);--sh:rgba(255,79,163,.55);--rad:16px;--bw:2px;--cb:rgba(255,95,176,.6);--cs:0 5px 0 #0e0620,0 0 16px -4px rgba(255,79,163,.55);--csh:0 5px 0 #0e0620,0 0 34px 0 rgba(166,107,255,.7);--br:12px;
+--pat:radial-gradient(1.5px 1.5px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 60% 20%,#ffd0e8,transparent),radial-gradient(2px 2px at 80% 60%,#aef0dc,transparent),radial-gradient(1.5px 1.5px at 35% 75%,#fff,transparent),radial-gradient(1px 1px at 90% 88%,#ffe38f,transparent),radial-gradient(1.5px 1.5px at 8% 55%,#d8c6ff,transparent)}
+:root[data-kind="Webtoon"] body::before{background-size:320px 320px;animation:tw 4s ease-in-out infinite}
+:root[data-kind="Webtoon"] h1{font-size:clamp(2.3rem,7vw,4.8rem)}
+:root[data-kind="Webtoon"] h1 span{filter:drop-shadow(0 0 14px rgba(255,79,163,.6))}
+:root[data-kind="Webtoon"] .tools h2{font-size:clamp(1.3rem,3.5vw,1.9rem)}
+:root[data-kind="Webtoon"] .cover::after,:root[data-kind="Webtoon"] .ps::after{-webkit-mask:none;mask:none;background:linear-gradient(120deg,rgba(255,255,255,.3) 0 12%,transparent 12% 18%,rgba(255,255,255,.16) 18% 24%,transparent 24%),linear-gradient(to top,rgba(27,16,48,.55) 0 18%,rgba(27,16,48,.25) 18% 36%,transparent 36%)}
+:root[data-kind="Webtoon"] .btn{box-shadow:0 4px 0 #8a1f5f,0 0 22px -4px var(--sh)}
+:root[data-kind="Webtoon"] .stars{text-shadow:0 0 8px rgba(255,179,71,.8)}
+/* Thème Anime : aplats nets, ombres cel à 2 niveaux, glow, reflets, particules */
+:root[data-kind="Anime"]{color-scheme:dark;--fd:"Zen Dots",system-ui,sans-serif;--bg:#070720;--s1:#12123a;--s2:#1c1c52;--tx:#eef3ff;--mu:#9aa6e6;--ln:rgba(120,200,255,.3);--g:linear-gradient(120deg,#22e1ff,#6a6bff 50%,#ff3fd0);--ac:#22e1ff;--ac2:#ff3fd0;--gl1:rgba(34,225,255,.26);--gl2:rgba(255,63,208,.24);--sh:rgba(34,225,255,.5);--bt:#050520;--rad:16px;--bw:2px;--cb:#22e1ff;--cs:0 5px 0 #0c0c2a,0 0 16px -4px rgba(34,225,255,.55);--csh:0 5px 0 #0c0c2a,0 0 34px 0 rgba(255,63,208,.7);--br:12px;
+--pat:radial-gradient(1.5px 1.5px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 60% 20%,#fff,transparent),radial-gradient(2px 2px at 80% 60%,#9ff,transparent),radial-gradient(1.5px 1.5px at 35% 75%,#fff,transparent),radial-gradient(1px 1px at 90% 88%,#fff,transparent),radial-gradient(1.5px 1.5px at 8% 55%,#f9f,transparent)}
+:root[data-kind="Anime"] body::before{background-size:320px 320px;animation:tw 4s ease-in-out infinite}
+@keyframes tw{50%{opacity:.5}}
+:root[data-kind="Anime"] h1{font-size:clamp(2.3rem,7vw,4.8rem)}
+:root[data-kind="Anime"] h1 span{filter:drop-shadow(0 0 14px rgba(34,225,255,.65))}
+:root[data-kind="Anime"] .tools h2{font-size:clamp(1.3rem,3.5vw,1.9rem)}
+:root[data-kind="Anime"] .cover::after,:root[data-kind="Anime"] .ps::after{-webkit-mask:none;mask:none;background:linear-gradient(120deg,rgba(255,255,255,.3) 0 12%,transparent 12% 18%,rgba(255,255,255,.16) 18% 24%,transparent 24%),linear-gradient(to top,rgba(8,8,48,.5) 0 18%,rgba(8,8,48,.22) 18% 36%,transparent 36%)}
+:root[data-kind="Anime"] .btn{box-shadow:0 4px 0 #0c6f86,0 0 22px -4px var(--sh)}
+:root[data-kind="Anime"] .stars{text-shadow:0 0 8px rgba(255,179,71,.8)}
+h1 span,.logo b{background:var(--gt,var(--g));-webkit-background-clip:text;background-clip:text}
+:root[data-kind="Manga"],:root[data-kind="Webtoon"],:root[data-kind="Anime"]{--gt:var(--g)}
+.card{cursor:pointer}.lk{margin-left:8px;font-size:.85rem}
+.cinfo{margin:0;color:var(--mu);word-break:break-all}
+a.btn[hidden]{display:none!important}
+#cdlg{width:min(560px,94vw)}
+textarea{font:500 1rem var(--fb);padding:11px 14px;border:1px solid var(--ln);background:var(--s1);color:var(--tx);border-radius:14px;resize:vertical;min-height:96px;width:100%}
+.dhead{display:grid;grid-template-columns:130px 1fr;gap:18px;align-items:start}
+.dcover{aspect-ratio:2/3;position:relative;overflow:hidden;border-radius:calc(var(--rad,20px)*.7);border:var(--bw,1px) solid var(--cb,var(--ln));box-shadow:var(--cs,none)}
+.dhead h2{margin:8px 0 4px;font-size:1.6rem;line-height:1.15}
+.kp{display:inline-block;color:#fff;font-weight:700;font-size:.74rem;padding:3px 12px;border-radius:99px}
+.ddesc{white-space:pre-wrap;margin:0;line-height:1.65;background:var(--s2);border-radius:16px;padding:14px 16px}.ddesc.none{color:var(--mu);font-style:italic}
+.cd{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:4px}
+:root[data-kind="Manga"] .kp{background:#111;box-shadow:0 0 0 1px rgba(255,255,255,.45)}
+:root[data-kind="Manga"] .dcover{filter:grayscale(1) contrast(1.2)}
+@media (max-width:520px){.dhead{grid-template-columns:96px 1fr;gap:12px}}
+.k-Manga{background:#111;box-shadow:0 0 0 1px rgba(255,255,255,.45)}.k-Webtoon{background:linear-gradient(120deg,#ff4fa3,#a66bff)}.k-Anime{background:linear-gradient(120deg,#29d3ff,#7c5cff)}
+.p1{background:linear-gradient(160deg,#f4f4f2,#8a8a8a)}
+:root{--km:#f4f4f2}
+.card[data-k="Manga"]{--kc:var(--km)}.card[data-k="Webtoon"]{--kc:#ff4fa3}.card[data-k="Anime"]{--kc:#29d3ff}
+.card{border-top:5px solid var(--kc,var(--cb,var(--ln)))}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--km:#111}}
+:root[data-theme="light"]{--km:#111}
+/* Thème Tout : structure Manga/Anime, palette douce rose-violet-cyan */
+:root:not([data-kind]),:root[data-kind="Tout"]{color-scheme:dark;--fd:"Zen Dots",system-ui,sans-serif;--bg:#0a0a14;--s1:#14142a;--s2:#1e1e3c;--tx:#f4f3ff;--mu:#a09ec4;--ln:rgba(255,255,255,.22);--g:linear-gradient(120deg,#ff4fa3,#8b6cff 55%,#29d3ff);--gt:linear-gradient(120deg,#ff4fa3,#8b6cff 55%,#29d3ff);--ac:#ff4fa3;--ac2:#29d3ff;--gl1:rgba(255,79,163,.2);--gl2:rgba(41,211,255,.18);--sh:rgba(255,79,163,.5);--bt:#fff;--rad:16px;--bw:2px;--cb:rgba(139,108,255,.55);--cs:0 5px 0 #05050c,0 0 16px -4px rgba(139,108,255,.5);--csh:0 5px 0 #05050c,0 0 34px 0 rgba(255,79,163,.6);--br:12px;--pat:radial-gradient(1.5px 1.5px at 20% 30%,#fff,transparent),radial-gradient(1px 1px at 60% 20%,#fff,transparent),radial-gradient(2px 2px at 80% 60%,#9fe8ff,transparent),radial-gradient(1.5px 1.5px at 35% 75%,#fff,transparent),radial-gradient(1px 1px at 90% 88%,#fff,transparent),radial-gradient(1.5px 1.5px at 8% 55%,#ffb3d9,transparent)}
+:root:not([data-kind]) body::before,:root[data-kind="Tout"] body::before{background-size:320px 320px;animation:tw 4s ease-in-out infinite}
+:root:not([data-kind]) h1,:root[data-kind="Tout"] h1{font-size:clamp(2.3rem,7vw,4.8rem)}
+:root:not([data-kind]) h1 span,:root[data-kind="Tout"] h1 span{filter:drop-shadow(0 0 14px rgba(255,79,163,.55))}
+:root:not([data-kind]) .tools h2,:root[data-kind="Tout"] .tools h2{font-size:clamp(1.3rem,3.5vw,1.9rem)}
+:root:not([data-kind]) .cover::after,:root:not([data-kind]) .ps::after,:root[data-kind="Tout"] .cover::after,:root[data-kind="Tout"] .ps::after{-webkit-mask:none;mask:none;background:linear-gradient(120deg,rgba(255,255,255,.3) 0 12%,transparent 12% 18%,rgba(255,255,255,.16) 18% 24%,transparent 24%),linear-gradient(to top,rgba(8,8,30,.55) 0 18%,rgba(8,8,30,.25) 18% 36%,transparent 36%)}
+:root:not([data-kind]) .btn,:root[data-kind="Tout"] .btn{box-shadow:0 4px 0 #7a1f5f,0 0 22px -4px var(--sh)}
+:root:not([data-kind]) .stars,:root[data-kind="Tout"] .stars{text-shadow:0 0 8px rgba(255,179,71,.8)}
+:root:not([data-kind]) .card[data-k="Manga"],:root[data-kind="Tout"] .card[data-k="Manga"]{--kc:#f5f5f5}
+.acct{display:flex;align-items:center;gap:10px}
+.dcbtn{width:40px;height:40px;border-radius:50%;border:0;background:#5865f2;color:#fff;display:grid;place-items:center;cursor:pointer;flex:none;box-shadow:0 0 20px -4px rgba(88,101,242,.8);transition:transform .15s}
+.dcbtn:hover{transform:translateY(-2px) scale(1.06)}.dcbtn svg{width:23px;height:23px}
+.dcico{width:64px;height:64px;border-radius:20px;background:#5865f2;color:#fff;display:grid;place-items:center;box-shadow:0 0 28px -4px rgba(88,101,242,.9)}.dcico svg{width:38px;height:38px}
+.dcbtn{padding:0;display:flex;align-items:center;justify-content:center;line-height:0;margin:0}
+.dcbtn svg,.dcico svg{display:block;margin:auto}
+.acct{height:100%}
+#dform{text-align:center;justify-items:center}
+#dform .dcico{margin:0 auto}#dform h2{margin:0}#dform .cinfo{margin:0}
+#dform .acts{justify-content:center;width:100%}
+.acct{gap:8px}
+.acct #meBtn{height:40px;padding:0 14px 0 5px;gap:8px;font-size:.9rem}
+.acct #meBtn:not(:has(.av)){padding:0 16px}
+#meBtn span{max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:480px){.logo{font-size:.9rem;gap:8px}.logo i{width:22px;height:22px}#meBtn span{max-width:64px}.acct #meBtn{padding:0 10px 0 4px}}
+.logo i{width:40px;height:40px;border-radius:50%;background:url(data:image/jpeg;base64,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) center/cover no-repeat;transform:none;box-shadow:0 0 0 2px rgba(255,255,255,.4),0 0 16px -2px var(--ac)}
+@media (max-width:480px){.logo i{width:32px;height:32px}}
+.acct{gap:20px}
+.dcbtn{margin-right:6px}
+@media (max-width:480px){.acct{gap:14px}.dcbtn{margin-right:2px}}
+.flinks{margin-top:10px}
+.plink{font:600 .88rem var(--fb);background:none;border:0;color:var(--mu);cursor:pointer;padding:6px 12px;border-radius:99px;transition:color .15s,background .15s}
+.plink:hover{color:var(--tx);background:var(--s2)}
+#privdlg{width:min(720px,94vw);max-height:88vh;overflow:hidden}
+#privdlg[open]{display:flex}
+.pv{display:flex;flex-direction:column;width:100%;min-height:0}
+.pvh{display:flex;align-items:center;gap:16px;padding:24px 26px 18px;position:relative;background:radial-gradient(28rem 10rem at 0% 0%,var(--gl1),transparent 70%),radial-gradient(24rem 10rem at 100% 0%,var(--gl2),transparent 70%);border-bottom:1px solid var(--ln)}
+.pvh h2{font-family:var(--fd);font-weight:400;font-size:clamp(1.2rem,3.6vw,1.7rem);margin:0 0 8px;line-height:1.15}
+.pvbar{display:block;width:64px;height:4px;border-radius:99px;background:var(--g)}
+.pvico{width:54px;height:54px;border-radius:18px;background:var(--g);color:var(--bt,#fff);display:grid;place-items:center;flex:none;box-shadow:0 10px 26px -8px var(--sh,rgba(255,79,163,.6))}.pvico svg{width:28px;height:28px}
+.pvx{position:absolute;right:16px;top:16px;width:36px;height:36px;border-radius:50%;border:1px solid var(--ln);background:var(--s1);color:var(--tx);font-size:1.4rem;line-height:1;cursor:pointer;display:grid;place-items:center;padding:0 0 3px}
+.pvx:hover{background:var(--s2)}
+.pvb{overflow:auto;padding:22px 26px 28px;display:grid;gap:14px;min-height:140px}
+.pvs{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;background:var(--s2);border:1px solid var(--ln);border-left:5px solid var(--ac);border-radius:calc(var(--rad,20px)*.8);padding:16px 18px}
+.pvn{grid-row:span 2;font-family:var(--fd);font-size:1.5rem;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.1}
+.pvs h3{margin:0;font-size:1.05rem}.pvs p{margin:0;color:var(--mu);white-space:pre-wrap;line-height:1.65}
+.pve{border:1px dashed var(--ln);border-radius:20px;padding:44px 16px;text-align:center;color:var(--mu)}
+.pvt{min-width:0}.pvt>*+*{margin-top:10px}
+.pvt ul{margin:0;padding-left:1.15em;color:var(--mu);line-height:1.65}.pvt li::marker{color:var(--ac)}.pvt li+li{margin-top:3px}
+.pvm{justify-self:start;font:700 .8rem var(--fb);padding:6px 14px;border-radius:99px;background:var(--s2);border:1px solid var(--ln);color:var(--tx)}
+.pvi{margin:0;line-height:1.7;color:var(--tx)}
+.pvs{align-items:start}
+
+form.add label.chk{display:flex;gap:10px;align-items:flex-start;font-weight:500}
+.chk input{width:auto;padding:0;margin-top:4px;flex:none}
+.chk a{color:var(--ac2)}
+.pacct{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap}
+#adlg .tabs{justify-self:start}
+#gate{width:min(700px,95vw);max-height:92vh;overflow:hidden}
+#gate[open]{display:flex}
+#gate::backdrop{background:rgba(4,4,14,.88);backdrop-filter:blur(8px)}
+.gmain{display:flex;flex-direction:column;min-height:0;flex:1}
+.gnote{margin:16px 26px 0;padding:12px 16px;border-radius:14px;background:var(--s2);border:1px solid var(--ln);border-left:5px solid var(--ac2);line-height:1.55;font-size:.93rem}
+.gmain .pvb{flex:1;min-height:120px}
+.gfoot{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;padding:16px 26px 22px;border-top:1px solid var(--ln)}
+.gden{padding:48px 26px;text-align:center;display:grid;gap:12px;justify-items:center}.gden h3{margin:0;font-family:var(--fd);font-weight:400;font-size:1.5rem}.gden p{margin:0;color:var(--mu);max-width:42ch}
+@media (max-width:520px){.gfoot .btn{flex:1 1 100%;justify-content:center}}
+/* suggestions entre amis */
+#sgdlg .cinfo{word-break:normal}
+#sgnew[hidden],#sgform[hidden],#sglist[hidden],#sgempty[hidden]{display:none}
+#sgform{display:grid;gap:14px}
+#sgdlg .srow{flex-wrap:wrap}
+#sgdlg .sgnm{flex:1 1 140px;display:grid;gap:2px;cursor:default;white-space:normal;overflow-wrap:anywhere}
+#sgdlg .sgnm small{color:var(--mu);font-weight:500}
+#sgdlg .sgnew{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:99px;background:var(--ac2);color:#fff;font:700 .68rem var(--fb);vertical-align:middle}
+#sgdlg .srow .btn{padding:7px 14px;font-size:.82rem}
+#rdlg .acts{flex-wrap:wrap}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap bar"><a class="logo" href="#"><i></i>Nerv<b>Team</b></a><div class="acct"><button type="button" class="dcbtn" id="dcBtn" aria-label="Rejoindre le Discord" title="Discord"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189z"/></svg></button><button class="btn ghost" id="meBtn">Se connecter</button></div></div></header>
+<main class="wrap">
+  <section class="hero" aria-label="Présentation">
+    <div>
+      <h1>Nerv <span>Team</span></h1>
+      <p class="tag" id="tagline">Notre bibliothèque de mangas, webtoons et animes. Chacun range ses titres, note ses coups de cœur et découvre ce que les autres regardent.</p>
+      <a class="btn" href="#lib">Voir la bibliothèque</a>
+      <div class="stats"><div><b id="sTotal">0</b><span>titres dans cette bibliothèque</span></div><div><b id="sChap">0</b><span>chapitres et épisodes vus</span></div></div>
+    </div>
+    <div class="posters" aria-hidden="true"><div class="ps p1" data-k="Manga"><em>漫画</em><span>Manga</span></div><div class="ps p2" data-k="Webtoon"><em>웹툰</em><span>Webtoon</span></div><div class="ps p3" data-k="Anime"><em>アニメ</em><span>Anime</span></div></div>
+  </section>
+  <section id="lib" aria-label="Bibliothèque">
+    <div class="tools">
+      <h2 id="shelfTitle">Notre bibliothèque</h2>
+      <input type="search" id="q" placeholder="Rechercher un titre ou un auteur" aria-label="Rechercher">
+      <button class="btn" id="openAdd" hidden>Ajouter un titre</button>
+      <button class="btn ghost" id="friendBtn" hidden></button>
+      <button class="btn ghost" id="followBtn" hidden></button>
+      <button class="btn ghost" id="socBtn" hidden>👥 Mes relations</button>
+<button class="btn ghost" id="sugBtn" hidden>💡 Suggestions</button>
+<button class="btn ghost" id="sugFriendBtn" hidden>💡 Lui suggérer une œuvre</button>
+    </div>
+    <div class="pcard" id="pcard" hidden></div>
+    <div class="note" id="note" hidden>Mode local : le serveur est injoignable pour l'instant. Ta bibliothèque reste enregistrée uniquement dans ce navigateur.</div>
+    <div class="fbar" id="fbar" hidden></div>
+    <div class="msearch" id="msearch" hidden><input type="search" id="mq" placeholder="Chercher un membre par pseudo" aria-label="Chercher un membre par pseudo" autocomplete="off"></div>
+    <div class="team" id="team" aria-label="Membres de la team"></div>
+    <div class="tabs" id="kinds" role="group" aria-label="Type de contenu"></div>
+    <div class="chips" id="chips" role="group" aria-label="Filtrer par statut"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+<div class="wipe" id="wipe" aria-hidden="true"><span id="wipeT"></span></div>
+<footer><div class="wrap"><b>Nerv Team</b> — vos mangas, webtoons et animes.<div class="flinks"><button type="button" class="plink" id="privBtn">Politique de confidentialité</button></div><p class="copyr">© 2026 — Site créé par <b>mortizzkk</b>. Interdit de copier, reproduire ou redistribuer ce site sans autorisation.</p></div></footer>
+
+<dialog id="dlg">
+  <form class="add" id="form" method="dialog">
+    <h2>Ajouter un titre</h2>
+    <label>Type<select name="kind"><option>Manga</option><option>Webtoon</option><option>Anime</option></select></label>
+    <label>Titre<input name="title" required maxlength="80"></label>
+    <label>Auteur<input name="author" maxlength="60"></label>
+    <div class="two">
+      <label>Statut<select name="status"><option>En cours</option><option>Terminé</option><option>À découvrir</option></select></label>
+      <label>Chapitres ou épisodes vus<input name="chapters" type="number" min="0" value="0"></label>
+    </div>
+    <div class="two">
+      <label>Note<select name="rating"><option value="5">5 sur 5</option><option value="4">4 sur 5</option><option value="3">3 sur 5</option><option value="2">2 sur 5</option><option value="1">1 sur 5</option></select></label>
+      <label>Genre<input name="genre" placeholder="Shōnen, Seinen…" maxlength="30"></label>
+    </div>
+    <label>Description (facultatif)<textarea name="desc" maxlength="500" placeholder="Résumé, ton avis, où tu en es…"></textarea></label>
+    <label>Lien URL (facultatif)<input name="url" type="text" inputmode="url" maxlength="300" placeholder="https://… (site où lire ou regarder)" autocomplete="off"></label>
+    <label>Image de couverture (facultatif)<input type="file" name="cover" accept="image/*"></label>
+    <div class="acts"><button type="button" class="btn ghost" id="cancel">Annuler</button><button class="btn" type="submit">Enregistrer</button></div>
+  </form>
+</dialog>
+
+<dialog id="cdlg">
+  <form class="add" id="cform" method="dialog">
+    <div id="cview">
+      <div class="dhead"><div class="dcover" id="dcover"></div>
+        <div><span class="kp" id="dkind"></span><h2 id="ctitle"></h2><p class="cinfo" id="dmeta"></p><div class="stars" id="dstars"></div><p class="cinfo" id="dprog"></p></div></div>
+      <p class="ddesc" id="ddesc"></p>
+      <a class="btn" id="cgo" target="_blank" rel="noopener noreferrer" hidden>Aller sur l'URL</a>
+    </div>
+    <div id="cedit" hidden>
+      <h2>Modifier la carte</h2>
+      <label>Type<select id="e_kind"><option>Manga</option><option>Webtoon</option><option>Anime</option></select></label>
+      <label>Titre<input id="e_title" maxlength="80"></label>
+      <label>Auteur<input id="e_author" maxlength="60"></label>
+      <label>Description<textarea id="e_desc" maxlength="500" placeholder="Résumé, ton avis, où tu en es…"></textarea></label>
+      <div class="two">
+        <label>Statut<select id="e_status"><option>En cours</option><option>Terminé</option><option>À découvrir</option></select></label>
+        <label>Chapitres ou épisodes vus<input id="e_ch" type="number" min="0"></label>
+      </div>
+      <div class="two">
+        <label>Note<select id="e_rate"><option value="5">5 sur 5</option><option value="4">4 sur 5</option><option value="3">3 sur 5</option><option value="2">2 sur 5</option><option value="1">1 sur 5</option></select></label>
+        <label>Genre<input id="e_genre" maxlength="30"></label>
+      </div>
+      <label>Lien URL<input id="curl" type="text" inputmode="url" maxlength="300" placeholder="https://…" autocomplete="off"></label>
+      <label>Changer l'image de couverture<input type="file" id="e_cover" accept="image/*"></label>
+      <p class="err" id="cerr" role="alert" hidden></p>
+    </div>
+    <div class="acts"><button type="button" class="btn ghost" id="cclose">Fermer</button><button type="button" class="btn ghost" id="crec" hidden>💌 Conseiller</button><button type="button" class="btn ghost" id="cedbtn" hidden>✎ Modifier</button><button class="btn" type="submit" id="csave" hidden>Enregistrer</button></div>
+  </form>
+</dialog>
+
+<dialog id="sdlg"><form class="add" method="dialog">
+    <h2 id="stitle">Mes relations</h2>
+    <div class="stabs" id="stabs"></div>
+    <div id="slist"></div>
+    <div class="acts"><button type="button" class="btn ghost" id="sclose">Fermer</button></div>
+  </form></dialog>
+
+<dialog id="rdlg"><form class="add" method="dialog">
+    <h2>Conseiller à un ami</h2>
+    <p class="cinfo" id="rempty" hidden>Ajoute d'abord un ami : ouvre sa bibliothèque et clique sur « Ajouter en ami ».</p>
+    <div id="rform"><label>Ami<select id="rfriend"></select></label>
+    <label>Petit mot (facultatif)<textarea id="rmsg" maxlength="200" placeholder="Tu vas adorer…"></textarea></label>
+    <p class="cinfo">Un lien est créé : envoie-le à ton ami (Discord, message…).</p></div>
+    <p class="cinfo" id="rstat" role="status"></p>
+    <div class="acts"><button type="button" class="btn ghost" id="rclose">Fermer</button><button type="button" class="btn ghost" id="rshare" hidden>Partager</button><button type="button" class="btn ghost" id="rcopy">Copier le lien</button><button type="button" class="btn" id="rsend">Envoyer directement</button></div>
+  </form></dialog>
+
+<dialog id="vdlg"><form class="add" method="dialog">
+    <p class="cinfo" id="vfrom"></p><h2 id="vtitle"></h2><p class="cinfo" id="vmeta"></p><p class="ddesc" id="vnote" hidden></p>
+    <div class="acts"><button type="button" class="btn ghost" id="vclose">Plus tard</button><button type="button" class="btn" id="vadd">Ajouter à ma bibliothèque</button></div>
+  </form></dialog>
+
+<dialog id="sgdlg"><form class="add" method="dialog">
+    <h2>Suggestions entre amis</h2>
+    <p class="cinfo">Suggère à un ami une œuvre à regarder ou à lire : seul le nom est transmis, sans image ni lien.</p>
+    <div class="stabs" id="sgtabs"></div>
+    <div id="sglist"></div>
+    <div id="sgnew" hidden>
+      <p class="cinfo" id="sgempty" hidden>Ajoute d'abord un ami : ouvre sa bibliothèque et clique sur « Ajouter en ami ».</p>
+      <div id="sgform">
+        <label>Ami<select id="sgfriend"></select></label>
+        <label>Type<select id="sgkind"><option>Manga</option><option>Webtoon</option><option>Anime</option></select></label>
+        <label>Nom de l'œuvre<input id="sgtitle" maxlength="80" autocomplete="off" placeholder="Ex : Vinland Saga"></label>
+        <p class="cinfo" id="sgstat" role="status"></p>
+        <div class="acts"><button type="button" class="btn" id="sgsend">Envoyer la suggestion</button></div>
+      </div>
+    </div>
+    <div class="acts"><button type="button" class="btn ghost" id="sgclose">Fermer</button></div>
+  </form></dialog>
+
+<dialog id="ddlg">
+  <form class="add" method="dialog" id="dform">
+    <div class="dcico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189z"/></svg></div>
+    <h2>Rejoindre notre Discord</h2>
+    <p class="cinfo" id="dtxt">Viens discuter mangas, webtoons et animes avec la team !</p>
+    <div class="acts"><button type="button" class="btn ghost" id="dcancel">Annuler</button><a class="btn" id="djoin" target="_blank" rel="noopener noreferrer" hidden>Rejoindre</a></div>
+  </form>
+</dialog>
+
+<dialog id="privdlg">
+  <div class="pv">
+    <header class="pvh"><div class="pvico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.1 8-7.5 9.5-4.4-1.5-7.5-4.9-7.5-9.5V6z"/><path d="M8.8 12.2l2.4 2.4 4-4.6"/></svg></div><div><h2>Politique de confidentialité</h2><span class="pvbar"></span></div><button type="button" class="pvx" id="privX" aria-label="Fermer">×</button></header>
+    <div class="pvb" id="privBody"></div>
+  </div>
+</dialog>
+
+<dialog id="pdlg">
+  <form class="add" id="pform" method="dialog">
+    <h2>Mon profil</h2>
+    <p class="cinfo" id="pmail" hidden></p>
+    <label>Pseudo<input id="pname" required minlength="3" maxlength="20" autocomplete="off" autocapitalize="off" spellcheck="false"><span class="hint">3 à 20 caractères : lettres, chiffres, _ ou -. Chaque pseudo est unique sur le site.</span></label>
+    <div id="ppl"><label style="display:flex;gap:10px;align-items:flex-start;cursor:pointer"><input type="checkbox" id="ppriv" style="width:auto;margin-top:4px"><span><b>Profil privé</b><span class="hint">Seuls tes amis voient ta bibliothèque, tes amis, tes abonnements et tes abonnés.</span></span></label></div>
+    <p class="err" id="perr" role="alert" hidden></p>
+    <div><b style="font-size:.9rem">Ma photo de profil</b><div class="picks" id="picks" style="margin-top:8px"></div></div>
+    <div class="acts"><button type="button" class="btn ghost" id="pcancel">Annuler</button><button class="btn" type="submit" id="psave">Enregistrer</button></div>
+    <div class="pacct" id="pacct" hidden><button type="button" class="plink" id="plogout">Se déconnecter</button><button type="button" class="plink" id="pdel">Supprimer mon compte</button></div>
+  </form>
+</dialog>
+
+<dialog id="adlg">
+  <form class="add" id="aform" method="dialog" novalidate>
+    <h2 id="atitle">Connexion</h2>
+    <div class="tabs" id="atabs" role="group" aria-label="Connexion ou inscription"><button type="button" class="tab" data-m="login" aria-pressed="true">Connexion</button><button type="button" class="tab" data-m="register" aria-pressed="false">Inscription</button></div>
+    <label>E-mail<input id="aemail" type="email" maxlength="254" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false"></label>
+    <label id="aname_l" hidden>Pseudo<input id="aname" maxlength="20" autocomplete="username" autocapitalize="off" spellcheck="false"><span class="hint">3 à 20 caractères : lettres, chiffres, _ ou -. Le pseudo est unique et visible par les autres membres. Ton e-mail ne l'est jamais.</span></label>
+    <label>Mot de passe<input id="apass" type="password" maxlength="128" autocomplete="current-password"><span class="hint" id="apass_h" hidden>8 caractères minimum.</span></label>
+    <label class="chk" id="achk_l" hidden><input type="checkbox" id="achk"><span>J'ai lu la <a href="#" id="apriv">politique de confidentialité</a> et je l'accepte.</span></label>
+    <p class="err" id="aerr" role="alert" hidden></p>
+    <div class="acts"><button type="button" class="btn ghost" id="acancel">Annuler</button><button class="btn" type="submit" id="asubmit">Se connecter</button></div>
+  </form>
+</dialog>
+
+<dialog id="gate">
+  <div class="pv">
+    <header class="pvh"><div class="pvico"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7.5 3v5.5c0 4.6-3.1 8-7.5 9.5-4.4-1.5-7.5-4.9-7.5-9.5V6z"/><path d="M8.8 12.2l2.4 2.4 4-4.6"/></svg></div><div><h2>Politique de confidentialité</h2><span class="pvbar"></span></div></header>
+    <div id="gmain" class="gmain">
+      <div class="gnote"><b>À lire avant de continuer.</b> En acceptant, vous êtes informé(e) que votre adresse IP et certaines informations techniques (système d'exploitation, navigateur, langue, fuseau horaire) peuvent être collectées.</div>
+      <div class="pvb" id="gateBody"></div>
+      <div class="gfoot"><button type="button" class="btn ghost" id="gRefuse">Refuser et quitter</button><button type="button" class="btn" id="gAccept">Accepter et continuer</button></div>
+    </div>
+    <div id="gden" class="gden" hidden><h3>Accès refusé</h3><p>Vous avez refusé la politique de confidentialité : vous ne pouvez pas utiliser ce site.</p><button type="button" class="btn ghost" id="gRetry">Revoir la politique</button></div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  var KEY="mortizzkk-local-v2";
+  var AV=[
+    {bg:"#ff9f43",hair:"#2b2b3a",eye:"#e0483c",fit:"#333344",st:0},
+    {bg:"#5b6cff",hair:"#dfe6ff",eye:"#3a86ff",fit:"#f4f4f8",st:1},
+    {bg:"#1fae73",hair:"#ff6fa5",eye:"#7a3cff",fit:"#2a2a3a",st:2},
+    {bg:"#ff5c8a",hair:"#4a2f8f",eye:"#ffc820",fit:"#f4f4f8",st:3},
+    {bg:"#8a6bff",hair:"#f6f1e7",eye:"#18c0d8",fit:"#22222e",st:0},
+    {bg:"#2d2d3a",hair:"#d63b3b",eye:"#f2c14e",fit:"#f4f4f8",st:1},
+    {bg:"#1aa4d8",hair:"#191922",eye:"#6fc02f",fit:"#ff5c8a",st:3},
+    {bg:"#7ac142",hair:"#f2a33a",eye:"#2b6cff",fit:"#2a2a3a",st:2},
+    {bg:"#ff7ab8",hair:"#ffd23f",eye:"#e0483c",fit:"#4a2f8f",st:4},
+    {bg:"#3a3a6a",hair:"#22e1ff",eye:"#ff3fd0",fit:"#f4f4f8",st:4,x:"h"},
+    {bg:"#ffb347",hair:"#5b3a29",eye:"#2f9e44",fit:"#ff5c8a",st:5},
+    {bg:"#2b2b44",hair:"#f4f4f8",eye:"#e0483c",fit:"#ff3d6a",st:5,x:"g"},
+    {bg:"#4dd0e1",hair:"#2b2b3a",eye:"#ffc820",fit:"#7a3cff",st:6},
+    {bg:"#b388ff",hair:"#ff6f61",eye:"#22e1ff",fit:"#22222e",st:6,x:"b"},
+    {bg:"#ff8a65",hair:"#7a3cff",eye:"#ffd23f",fit:"#f4f4f8",st:7},
+    {bg:"#26a69a",hair:"#ff9ecb",eye:"#5b6cff",fit:"#2a2a3a",st:7,x:"g"},
+    {bg:"#ffcc80",hair:"#d63b3b",eye:"#2b2b3a",fit:"#5b6cff",st:0,x:"b"},
+    {bg:"#455a9a",hair:"#f6f1e7",eye:"#ff5c8a",fit:"#191922",st:0,x:"m"},
+    {bg:"#ef5350",hair:"#191922",eye:"#f2c14e",fit:"#f4f4f8",st:1,x:"g"},
+    {bg:"#81c784",hair:"#3a86ff",eye:"#ff7ab8",fit:"#2a2a3a",st:1,x:"h"},
+    {bg:"#9575cd",hair:"#ffd23f",eye:"#7a3cff",fit:"#ff5c8a",st:2,x:"c"},
+    {bg:"#4fc3f7",hair:"#ff5c8a",eye:"#2f9e44",fit:"#22222e",st:2,x:"b"},
+    {bg:"#ffab91",hair:"#4a2f8f",eye:"#22e1ff",fit:"#f4f4f8",st:3,x:"c"},
+    {bg:"#7986cb",hair:"#e6e6e6",eye:"#e0483c",fit:"#ff3d6a",st:3,x:"m"},
+    {bg:"#f06292",hair:"#5b3a29",eye:"#ffc820",fit:"#191922",st:4,x:"c"},
+    {bg:"#aed581",hair:"#191922",eye:"#3a86ff",fit:"#ff9f43",st:5,x:"b"},
+    {bg:"#ba68c8",hair:"#22e1ff",eye:"#f4f4f8",fit:"#2a2a3a",st:6,x:"g"},
+    {bg:"#ffd54f",hair:"#2b2b3a",eye:"#ff3d6a",fit:"#5b6cff",st:7,x:"c"},
+    {bg:"#1e88e5",hair:"#ff9f43",eye:"#191922",fit:"#f4f4f8",st:0,x:"h"},
+    {bg:"#c62828",hair:"#f4f4f8",eye:"#22e1ff",fit:"#191922",st:1,x:"c"},
+    {bg:"#00897b",hair:"#ffb3c7",eye:"#7a3cff",fit:"#f4f4f8",st:6,x:"m"}];
+  function face(c){
+    var back="",bang='<path d="M23 50Q22 20 50 18Q78 20 77 50Q68 34 58 36Q52 28 46 36Q32 32 23 50Z" fill="'+c.hair+'"/>';
+    if(c.st===0)bang='<path d="M22 50L26 22L36 34L44 12L52 32L62 14L66 34L76 22L78 50Q64 36 50 40Q36 36 22 50Z" fill="'+c.hair+'"/>';
+    if(c.st===1)back='<path d="M18 50Q18 8 50 8Q82 8 82 50L88 100L12 100Z" fill="'+c.hair+'"/>';
+    if(c.st===2)back='<circle cx="13" cy="56" r="11" fill="'+c.hair+'"/><circle cx="87" cy="56" r="11" fill="'+c.hair+'"/><circle cx="50" cy="42" r="31" fill="'+c.hair+'"/>';
+    if(c.st===3)back='<path d="M19 32Q50 0 81 32L83 68Q50 74 17 68Z" fill="'+c.hair+'"/>';
+    if(c.st===4)back='<ellipse cx="13" cy="72" rx="10" ry="27" fill="'+c.hair+'"/><ellipse cx="87" cy="72" rx="10" ry="27" fill="'+c.hair+'"/><circle cx="50" cy="42" r="31" fill="'+c.hair+'"/>';
+    if(c.st===5)back='<path d="M17 52Q17 10 50 10Q83 10 83 52L84 78Q50 84 16 78Z" fill="'+c.hair+'"/>';
+    if(c.st===6)bang='<path d="M22 54Q20 20 54 16Q82 16 80 46Q64 30 40 38Q30 42 22 54Z" fill="'+c.hair+'"/>';
+    if(c.st===7)back='<circle cx="24" cy="16" r="12" fill="'+c.hair+'"/><circle cx="76" cy="16" r="12" fill="'+c.hair+'"/><circle cx="50" cy="40" r="30" fill="'+c.hair+'"/>';
+    var acc="",acc2="";
+    if(c.x==="c")back='<path d="M26 36L22 6L46 22Z" fill="'+c.hair+'"/><path d="M74 36L78 6L54 22Z" fill="'+c.hair+'"/><path d="M28 30L26 14L38 22Z" fill="#ffb3c7"/><path d="M72 30L74 14L62 22Z" fill="#ffb3c7"/>'+back;
+    if(c.x==="g")acc='<circle cx="39" cy="57" r="10" fill="none" stroke="#222" stroke-width="1.8"/><circle cx="61" cy="57" r="10" fill="none" stroke="#222" stroke-width="1.8"/><path d="M49 57H51" stroke="#222" stroke-width="1.8"/>';
+    if(c.x==="b")acc='<path d="M23 44Q50 26 77 44" stroke="#ff3d6a" stroke-width="5" fill="none" stroke-linecap="round"/>';
+    if(c.x==="h")acc='<path d="M22 56Q20 20 50 20Q80 20 78 56" stroke="#222" stroke-width="5" fill="none"/><rect x="15" y="50" width="11" height="18" rx="5" fill="#ff3d6a"/><rect x="74" y="50" width="11" height="18" rx="5" fill="#ff3d6a"/>';
+    if(c.x==="m")acc2='<path d="M28 64Q50 60 72 64L69 78Q50 84 31 78Z" fill="#f4f4f8" stroke="#999" stroke-width="1"/>';
+    var eyes=[39,61].map(function(x){return '<ellipse cx="'+x+'" cy="57" rx="6.5" ry="8.5" fill="#fff" stroke="#222" stroke-width="1.2"/><ellipse cx="'+x+'" cy="58" rx="5" ry="7" fill="'+c.eye+'"/><ellipse cx="'+x+'" cy="58" rx="2.4" ry="4.2" fill="#111"/><circle cx="'+(x-2)+'" cy="54.5" r="2" fill="#fff"/><path d="M'+(x-8)+' 51Q'+x+' 46 '+(x+8)+' 51" stroke="#222" stroke-width="1.8" fill="none" stroke-linecap="round"/>'}).join("");
+    return '<svg viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="'+c.bg+'"/>'+back+
+      '<path d="M10 100Q12 82 50 80Q88 82 90 100Z" fill="'+c.fit+'"/><rect x="43" y="72" width="14" height="12" fill="#ffd9c2"/>'+
+      '<ellipse cx="50" cy="52" rx="27" ry="29" fill="#ffe3d1"/>'+bang+eyes+acc+
+      '<ellipse cx="32" cy="68" rx="5" ry="3" fill="#ff8fa3" opacity=".55"/><ellipse cx="68" cy="68" rx="5" ry="3" fill="#ff8fa3" opacity=".55"/>'+
+      '<path d="M45 71Q50 76 55 71" stroke="#b5524b" stroke-width="1.8" fill="none" stroke-linecap="round"/>'+acc2+'</svg>';
+  }
+  var online=false,token=null,me=null,uid=null,members={},viewing=null,filter="Tous",kindF="Tout",query="",mQuery="",pick=0;
+  var $=function(id){return document.getElementById(id)};
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+  function num(n,a,b){n=parseInt(n,10);return isNaN(n)?a:Math.min(b,Math.max(a,n))}
+  function av(i,s){return '<span class="av" style="--s:'+s+'px">'+face(AV[num(i,0,AV.length-1)])+'</span>'}
+  function okImg(u){return typeof u==="string"&&/^data:image\/jpeg;base64,[A-Za-z0-9+\/=]+$/.test(u)&&u.length<200000}
+  function mine(){return members[uid]||(me?{name:me.name,avatar:me.avatar,mangas:[]}:undefined)}
+  function fold(t){return String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim()}
+  var API="https://nerv-collect.rakimiyu.workers.dev",COLLECT_URL=API+"/consent",TOK="nerv-token-v1",saving=0;
+  async function api(path,opt){
+    opt=opt||{};var h={};
+    if(opt.body!==undefined)h["Content-Type"]="application/json";
+    if(token)h.Authorization="Bearer "+token;
+    var r=await fetch(API+path,{method:opt.method||"GET",headers:h,body:opt.body!==undefined?JSON.stringify(opt.body):undefined});
+    var j={};try{j=await r.json()}catch(e){}
+    return {ok:r.ok,status:r.status,data:j||{}};
+  }
+  function clearSession(){token=null;me=null;uid=null;try{localStorage.removeItem(TOK)}catch(e){}}
+  var KJ={Manga:"漫画",Webtoon:"웹툰",Anime:"アニメ"};
+  function fixUrl(u){u=(u||"").trim();if(!u)return "";if(!/^https?:\/\//i.test(u))u="https://"+u;return /^https?:\/\/[^\s"'<>]+\.[^\s"'<>]+$/i.test(u)?u:null}
+  function okUrl(u){return typeof u==="string"&&fixUrl(u)===u&&!!u}
+  function kind(x){return KJ[x.kind]?x.kind:"Manga"}
+  function stat(x){return x.status==="À lire"?"À découvrir":(x.status||"En cours")}
+
+  function persist(o){
+    if(online){
+      saving++;
+      return api("/me/profile",{method:"PUT",body:{name:o.name,avatar:o.avatar,mangas:o.mangas,private:!!o.private}}).then(function(r){
+        if(r.status===401){clearSession();render();alert("Ta session a expiré. Reconnecte-toi pour enregistrer.");return}
+        if(!r.ok)alert(r.data.error||"Enregistrement impossible. Réessaie.");
+      }).catch(function(){alert("Enregistrement impossible : le serveur ne répond pas.")}).then(function(){saving--});
+    }
+    try{localStorage.setItem(KEY,JSON.stringify(o))}catch(e){}
+  }
+  function update(patch){
+    if(online&&!me){openAuth("login");return}
+    var o=Object.assign({name:"",avatar:0,mangas:[]},members[uid]||{},patch);
+    members[uid]=o;if(!viewing)viewing=uid;persist(o);render();
+  }
+
+  function render(){
+    var m=mine();
+    $("meBtn").innerHTML=m?av(m.avatar,26)+'<span>'+esc(m.name)+'</span>':'Se connecter';
+    var all=Object.keys(members),qq=fold(mQuery);
+    var ids=all.filter(function(id){return !qq||fold(members[id].name).indexOf(qq)>-1});
+    $("team").hidden=!all.length;$("msearch").hidden=!all.length;
+    $("team").innerHTML=ids.length?ids.map(function(id){var x=members[id];
+      return '<button class="mem" data-id="'+esc(id)+'" aria-pressed="'+(id===viewing)+'">'+av(x.avatar,34)+'<span><b>'+esc(x.name||"Membre")+(id===uid?' (moi)':'')+'</b><small>'+(Array.isArray(x.mangas)?x.mangas.length:0)+' titre(s)</small></span></button>'}).join(""):'<span class="nomem">Aucun membre trouvé avec ce pseudo.</span>';
+    var v=members[viewing],own=!!m&&viewing===uid;
+    $("shelfTitle").textContent=v?(own?"Ma bibliothèque":"Bibliothèque de "+(v.name||"Membre")):"Notre bibliothèque";
+    $("openAdd").hidden=!own;
+    var list=v&&Array.isArray(v.mangas)?v.mangas:[],q=query.toLowerCase();
+    var items=list.filter(function(x){return (filter==="Tous"||stat(x)===filter)&&(kindF==="Tout"||kind(x)===kindF)&&(!q||((x.title||"")+" "+(x.author||"")).toLowerCase().indexOf(q)>-1)});
+    $("grid").innerHTML=items.length?items.map(function(x){
+      var r=num(x.rating,1,5),h=num(x.hue,0,359);
+      var bg=okImg(x.img)?'background-image:url('+x.img+')':'background:linear-gradient(160deg,hsl('+h+',75%,48%),hsl('+((h+40)%360)+',70%,22%))';
+      var st="★★★★★".slice(0,r)+"☆☆☆☆☆".slice(0,5-r);
+      return '<article class="card" tabindex="0" data-k="'+kind(x)+'" data-id="'+esc(x.id)+'"><div class="cover" style="'+bg+'"><span class="badge k-'+kind(x)+'">'+kind(x)+'</span><span class="badge st">'+esc(stat(x))+'</span>'+(okImg(x.img)?'':'<div class="art">'+art(kind(x))+'</div><span class="vt">'+esc(x.title)+'</span>')+'</div>'+
+      '<div class="info"><h3>'+esc(x.title)+'</h3><small>'+esc(x.author||"Auteur inconnu")+(x.genre?' · '+esc(x.genre):'')+'</small><small>'+num(x.chapters,0,99999)+(kind(x)==='Anime'?' épisodes vus':' chapitres lus')+'</small>'+(x.desc?'<small class="cd">'+esc(x.desc)+'</small>':'')+
+      '<div class="row"><span><span class="stars" aria-label="Note '+r+' sur 5">'+st+'</span>'+(okUrl(x.url)?'<span class="lk" title="Lien disponible">🔗</span>':'')+'</span>'+(own?'<button class="del" data-id="'+esc(x.id)+'">Supprimer</button>':'')+'</div></div></article>';
+    }).join(""):'<div class="empty"><b>'+(m?(own?"Rien ici pour l'instant.":"Rien à voir ici pour l'instant."):(online?"Connecte-toi pour ajouter tes mangas.":"Crée ton profil pour ajouter tes mangas."))+'</b><br>'+(own?'Clique sur « Ajouter un titre » pour commencer.':'')+'</div>';
+    $("sTotal").textContent=list.length;
+    $("sChap").textContent=list.reduce(function(a,x){return a+num(x.chapters,0,99999)},0).toLocaleString("fr-FR");
+  }
+
+  function pic(c,x,y,w,h,mono){
+    var f=face(c).replace('<svg viewBox="0 0 100 100" aria-hidden="true">','<svg x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" viewBox="0 0 100 100">').replace(/<rect width="100" height="100"[^>]*\/>/,"");
+    return mono?f.replace(/#ff8fa3/g,"#bbb").replace(/#ffe3d1|#ffd9c2/g,"#fff"):f;
+  }
+  var SP='M0-8L2-2L8 0L2 2L0 8L-2 2L-8 0L-2-2Z';
+  function art(k){
+    var o='<svg viewBox="0 0 200 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">',i;
+    if(k==="Manga"){
+      var ln="";for(i=0;i<360;i+=10){var r=i*Math.PI/180,c=Math.cos(r),n=Math.sin(r);ln+='<line x1="'+(100+c*38)+'" y1="'+(95+n*38)+'" x2="'+(100+c*150)+'" y2="'+(95+n*150)+'" stroke="#111" stroke-width="'+(i%20?1:2.4)+'"/>'}
+      o+='<defs><pattern id="mht" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.5" fill="#111"/></pattern><clipPath id="mc1"><rect x="10" y="10" width="180" height="172"/></clipPath></defs><rect width="200" height="300" fill="#fff"/>'+
+      '<g clip-path="url(#mc1)">'+ln+pic({bg:"#fff",hair:"#111",eye:"#333",fit:"#111",st:0},22,22,156,156,1)+'</g><rect x="10" y="10" width="180" height="172" fill="none" stroke="#111" stroke-width="3"/>'+
+      '<rect x="10" y="192" width="112" height="98" fill="url(#mht)" stroke="#111" stroke-width="3"/><circle cx="66" cy="241" r="34" fill="#fff" stroke="#111" stroke-width="3"/><text x="66" y="257" text-anchor="middle" font-family="Dela Gothic One,Impact,sans-serif" font-size="44" fill="#111">!!</text>'+
+      '<rect x="130" y="192" width="60" height="98" fill="#111"/><path d="M160 216l6 18 19 1-15 12 5 19-15-11-15 11 5-19-15-12 19-1z" fill="#fff"/>';
+    }else if(k==="Webtoon"){
+      o+='<defs><linearGradient id="wg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffa3d7"/><stop offset="1" stop-color="#7a3cff"/></linearGradient><clipPath id="wc"><rect x="14" y="122" width="168" height="100" rx="14"/></clipPath></defs><rect width="200" height="300" fill="url(#wg)"/>'+
+      '<rect x="14" y="14" width="168" height="98" rx="14" fill="#fff" opacity=".92"/><circle cx="60" cy="56" r="22" fill="#ffd76a"/><path d="M128 44c-8-14-26 0-12 14l12 12 12-12c14-14-4-28-12-14z" fill="#ff4fa3"/><path d="M28 98q30-26 60 0t60 0" stroke="#7c5cff" stroke-width="4" fill="none"/>'+
+      '<rect x="14" y="122" width="168" height="100" rx="14" fill="#ffe6f3"/><g clip-path="url(#wc)">'+pic({bg:"",hair:"#ff6fa5",eye:"#7a3cff",fit:"#7a3cff",st:2},48,116,100,112)+'</g>'+
+      '<rect x="14" y="232" width="168" height="54" rx="14" fill="#fff" opacity=".92"/><path d="M34 244h96a8 8 0 0 1 8 8v12a8 8 0 0 1-8 8H70l-14 10v-10H34a8 8 0 0 1-8-8v-12a8 8 0 0 1 8-8z" fill="#ffe6f3" stroke="#7a3cff" stroke-width="2.5"/><path d="M82 250c-4-7-13 0-6 7l6 6 6-6c7-7-2-14-6-7z" fill="#ff4fa3"/><rect x="190" y="24" width="4" height="70" rx="2" fill="#fff" opacity=".7"/>';
+    }else{
+      o+='<defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#29d3ff"/><stop offset=".55" stop-color="#7c5cff"/><stop offset="1" stop-color="#ff4fa3"/></linearGradient><clipPath id="ac"><circle cx="100" cy="122" r="62"/></clipPath></defs><rect width="200" height="300" fill="url(#ag)"/>'+
+      '<circle cx="100" cy="230" r="80" fill="#ffd76a" opacity=".85"/><ellipse cx="42" cy="42" rx="30" ry="10" fill="#fff" opacity=".55"/><ellipse cx="160" cy="70" rx="26" ry="9" fill="#fff" opacity=".45"/>'+
+      '<circle cx="100" cy="122" r="62" fill="#5b6cff"/><g clip-path="url(#ac)">'+pic(AV[1],38,60,124,124)+'</g><circle cx="100" cy="122" r="62" fill="none" stroke="#fff" stroke-width="3.5"/>'+
+      '<g fill="#fff"><path transform="translate(32 110)" d="'+SP+'"/><path transform="translate(172 150) scale(1.3)" d="'+SP+'"/><path transform="translate(160 40) scale(.8)" d="'+SP+'"/><path transform="translate(24 200) scale(.9)" d="'+SP+'"/></g>'+
+      '<g fill="#ffb3d1"><ellipse cx="150" cy="215" rx="6" ry="3.5" transform="rotate(30 150 215)"/><ellipse cx="60" cy="235" rx="6" ry="3.5" transform="rotate(-25 60 235)"/><ellipse cx="120" cy="262" rx="5" ry="3" transform="rotate(50 120 262)"/></g>'+
+      '<path d="M0 300V258q30-22 56-6t54-10 46 8 44-8v58z" fill="#1a1240" opacity=".9"/>';
+    }
+    return o+'</svg>';
+  }
+  function chips(){$("kinds").innerHTML=["Tout","Manga","Webtoon","Anime"].map(function(k){return '<button class="tab" data-k="'+k+'" aria-pressed="'+(k===kindF)+'">'+(k==="Tout"?'':'<span class="ti">'+art(k)+'</span>')+k+'</button>'}).join("");$("chips").innerHTML=["Tous","En cours","Terminé","À découvrir"].map(function(s){return '<button class="chip" data-s="'+s+'" aria-pressed="'+(s===filter)+'">'+s+'</button>'}).join("")}
+  function drawPicks(){$("picks").innerHTML=AV.map(function(a,i){return '<button type="button" data-i="'+i+'" aria-label="Avatar '+(i+1)+'" aria-pressed="'+(i===pick)+'">'+av(i,44)+'</button>'}).join("")}
+
+  $("chips").addEventListener("click",function(e){var b=e.target.closest(".chip");if(!b)return;filter=b.dataset.s;chips();render()});
+  var TAG={Tout:"Notre bibliothèque de mangas, webtoons et animes. Chacun range ses titres, note ses coups de cœur et découvre ce que les autres regardent.",
+    Manga:"Planches, encre et cliffhangers. Tous les mangas que la team dévore, chapitre après chapitre.",
+    Webtoon:"Scrolle, rigole, craque. Les webtoons préférés de la team, en couleur et en long.",
+    Anime:"Épisode suivant ? Les animes que la team regarde, de l'opening jusqu'au générique de fin."};
+  var WG={Tout:"linear-gradient(120deg,#0b0b0b,#ff3d9a 45%,#22e1ff)",Manga:"linear-gradient(115deg,#0b0b0b 0 50%,#5a5a5a 50%)",Webtoon:"linear-gradient(120deg,#ff5fb0,#a66bff 50%,#22d3ae)",Anime:"linear-gradient(120deg,#22e1ff,#6a6bff 45%,#ff3fd0)"};
+  var WT={Tout:"✦",Manga:"漫画",Webtoon:"웹툰",Anime:"アニメ"},reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function setKind(k){
+    if(k===kindF)return;kindF=k;chips();
+    function apply(){document.documentElement.dataset.kind=k;$("tagline").textContent=TAG[k];render()}
+    if(reduce){apply();return}
+    var w=$("wipe");w.style.background=WG[k];$("wipeT").textContent=WT[k];
+    w.classList.remove("go");void w.offsetWidth;w.classList.add("go");
+    setTimeout(apply,340);
+  }
+  $("kinds").addEventListener("click",function(e){var b=e.target.closest(".tab");if(!b)return;setKind(b.dataset.k)});
+  document.querySelectorAll(".ps").forEach(function(el){el.addEventListener("click",function(){setKind(kindF===el.dataset.k?"Tout":el.dataset.k)})});
+  $("q").addEventListener("input",function(e){query=e.target.value;render()});
+  $("team").addEventListener("click",function(e){var b=e.target.closest(".mem");if(!b)return;viewing=b.dataset.id;render();$("shelfTitle").scrollIntoView({behavior:"smooth",block:"start"})});
+  $("mq").addEventListener("input",function(e){mQuery=e.target.value;render()});
+  $("mq").addEventListener("keydown",function(e){
+    if(e.key!=="Enter")return;e.preventDefault();
+    var qq=fold(mQuery),hit=Object.keys(members).filter(function(id){return !qq||fold(members[id].name).indexOf(qq)>-1})[0];
+    if(hit){viewing=hit;render();$("shelfTitle").scrollIntoView({behavior:"smooth",block:"start"})}
+  });
+  $("grid").addEventListener("click",function(e){
+    var b=e.target.closest(".del");if(!b)return;
+    var m=mine(),x=m&&m.mangas.filter(function(y){return String(y.id)===b.dataset.id})[0];
+    if(x&&confirm('Supprimer « '+x.title+' » de ta bibliothèque ?'))update({mangas:m.mangas.filter(function(y){return y!==x})});
+  });
+
+  var cdlg=$("cdlg"),curId=null;
+  function setEdit(on){$("cview").hidden=on;$("cedit").hidden=!on;$("csave").hidden=!on;$("cedbtn").hidden=on||!(!!mine()&&viewing===uid);$("cclose").textContent=on?"Annuler":"Fermer"}
+  function curItem(){var v=members[viewing];return v&&Array.isArray(v.mangas)&&v.mangas.filter(function(y){return String(y.id)===curId})[0]}
+  function openCard(id){
+    curId=id;var x=curItem();if(!x)return;
+    var k=kind(x),h=num(x.hue,0,359),u=okUrl(x.url)?x.url:"",r=num(x.rating,1,5);
+    $("dcover").style.cssText=okImg(x.img)?'background:url('+x.img+') center/cover':'background:linear-gradient(160deg,hsl('+h+',75%,48%),hsl('+((h+40)%360)+',70%,22%))';
+    $("dcover").innerHTML=okImg(x.img)?'':'<div class="art">'+art(k)+'</div>';
+    $("dkind").textContent=k;$("dkind").className="kp k-"+k;
+    $("ctitle").textContent=x.title;
+    $("dmeta").textContent=(x.author||"Auteur inconnu")+(x.genre?" · "+x.genre:"")+" · "+stat(x);
+    $("dstars").textContent="★★★★★".slice(0,r)+"☆☆☆☆☆".slice(0,5-r);
+    $("dprog").textContent=num(x.chapters,0,99999)+(k==="Anime"?" épisodes vus":" chapitres lus");
+    $("ddesc").textContent=x.desc||"Pas encore de description.";$("ddesc").classList.toggle("none",!x.desc);
+    var go=$("cgo");go.hidden=!u;if(u)go.href=u;
+    setEdit(false);cdlg.showModal();
+  }
+  $("grid").addEventListener("click",function(e){if(e.target.closest(".del"))return;var c=e.target.closest(".card");if(c)openCard(c.dataset.id)});
+  $("grid").addEventListener("keydown",function(e){if(e.key!=="Enter"||e.target.closest(".del"))return;var c=e.target.closest(".card");if(c)openCard(c.dataset.id)});
+  $("cclose").addEventListener("click",function(){if($("cedit").hidden)cdlg.close();else setEdit(false)});
+  $("cedbtn").addEventListener("click",function(){
+    var x=curItem();if(!x)return;
+    $("e_kind").value=kind(x);$("e_title").value=x.title||"";$("e_author").value=x.author||"";$("e_desc").value=x.desc||"";
+    $("e_status").value=stat(x);$("e_ch").value=num(x.chapters,0,99999);$("e_rate").value=String(num(x.rating,1,5));
+    $("e_genre").value=x.genre||"";$("curl").value=okUrl(x.url)?x.url:"";$("e_cover").value="";$("cerr").hidden=true;setEdit(true);
+  });
+  $("cform").addEventListener("submit",function(e){
+    e.preventDefault();if($("cedit").hidden)return;
+    var m=mine(),x=curItem(),err=$("cerr");err.hidden=true;
+    if(!m||viewing!==uid||!x)return;
+    var t=$("e_title").value.trim(),u=fixUrl($("curl").value);
+    if(!t){err.textContent="Le titre ne peut pas être vide.";err.hidden=false;return}
+    if(u===null){err.textContent="Ce lien n'est pas valide (ex : https://exemple.com).";err.hidden=false;return}
+    var patch={kind:$("e_kind").value,title:t,author:$("e_author").value.trim(),desc:$("e_desc").value.trim(),status:$("e_status").value,
+      chapters:num($("e_ch").value,0,99999),rating:num($("e_rate").value,1,5),genre:$("e_genre").value.trim(),url:u};
+    var file=$("e_cover").files[0];
+    function done(){update({mangas:m.mangas.map(function(y){return y===x?Object.assign({},y,patch):y})});openCard(curId)}
+    if(file&&file.size){shrink(file,function(d){if(d)patch.img=d;done()})}else done();
+  });
+  var DISCORD="https://discord.gg/Xhgr2CDeFF";
+  var ddlg=$("ddlg");
+  $("dcBtn").addEventListener("click",function(){
+    var ok=/^https:\/\/(discord\.gg|discord\.com\/invite)\/[A-Za-z0-9-]+$/.test(DISCORD)&&DISCORD.indexOf("TON-INVITATION")<0;
+    $("djoin").hidden=!ok;if(ok)$("djoin").href=DISCORD;
+    $("dtxt").textContent=ok?"Viens discuter mangas, webtoons et animes avec la team !":"Le lien d'invitation Discord n'est pas encore configuré.";
+    ddlg.showModal();
+  });
+  $("dcancel").addEventListener("click",function(){ddlg.close()});
+  $("djoin").addEventListener("click",function(){setTimeout(function(){ddlg.close()},0)});
+  /* Contenu de la politique de confidentialité (les lignes commençant par • deviennent une liste) */
+  var PRIVACY_DATE="30 septembre 2026";
+  var PRIVACY_INTRO="La présente politique de confidentialité explique quelles données peuvent être collectées lorsque vous utilisez notre site internet, pourquoi elles sont collectées et comment elles sont utilisées.";
+  var PRIVACY=[{"t": "Données collectées", "p": "Lors de votre navigation sur le site, certaines informations techniques peuvent être automatiquement collectées, notamment :\n\n• votre adresse IP ;\n• la date et l’heure de votre connexion ;\n• les pages consultées ;\n• le type et la version de votre navigateur ;\n• le système d’exploitation utilisé ;\n• certaines informations techniques nécessaires au fonctionnement et à la sécurité du site.\n\nL’adresse IP peut notamment être utilisée pour assurer la sécurité du site, détecter et prévenir les comportements abusifs, établir des statistiques de fréquentation ou assurer le bon fonctionnement des services proposés."}, {"t": "Compte utilisateur", "p": "Si vous créez un compte, nous collectons :\n\n• votre adresse e-mail, utilisée uniquement pour la connexion et jamais affichée aux autres membres ;\n• votre pseudo, votre avatar et le contenu de votre bibliothèque (titres, notes, descriptions, liens et images de couverture), visibles par les autres membres ;\n• votre mot de passe, conservé uniquement sous forme d’empreinte chiffrée, jamais en clair ;\n• une clé de session, stockée dans votre navigateur pour vous garder connecté(e) pendant 30 jours.\n\nVous pouvez supprimer votre compte à tout moment depuis votre profil : votre e-mail, votre pseudo et votre bibliothèque sont alors effacés.\n\nCes données sont stockées chez notre prestataire technique Cloudflare, et le site est hébergé par GitHub Pages."}, {"t": "Finalités de la collecte", "p": "Les données collectées peuvent être utilisées pour :\n\n• assurer le fonctionnement et la sécurité du site ;\n• détecter et prévenir les tentatives de fraude, d'abus ou d'accès non autorisés ;\n• mesurer et analyser la fréquentation du site, lorsque cela est applicable ;\n• répondre aux obligations légales qui nous sont applicables ;\n• améliorer les performances et le fonctionnement du site.\n\nNous n'utilisons pas l'adresse IP à d'autres fins que celles décrites dans la présente politique, sauf lorsque cela est nécessaire pour respecter une obligation légale ou protéger nos droits."}, {"t": "Base juridique", "p": "Lorsque le Règlement général sur la protection des données (RGPD) s'applique, le traitement des données personnelles repose, selon le cas, sur :\n\n• notre intérêt légitime, notamment pour assurer la sécurité et le bon fonctionnement du site ;\n• le respect d'une obligation légale ;\n• votre consentement lorsque celui-ci est requis."}, {"t": "Durée de conservation", "p": "Les adresses IP et les données techniques sont conservées pendant une durée limitée, proportionnée aux finalités pour lesquelles elles sont collectées.\n\nLa durée exacte de conservation peut varier selon l'utilisation concernée et les obligations légales applicables."}, {"t": "Destinataires des données", "p": "Les données peuvent être accessibles uniquement aux personnes ou prestataires qui en ont besoin pour assurer le fonctionnement, la sécurité ou la maintenance du site.\n\nLorsque nous faisons appel à des prestataires techniques susceptibles d'avoir accès à ces données, ceux-ci sont tenus de respecter les obligations applicables en matière de protection des données."}, {"t": "Transfert de données", "p": "Si certains de nos prestataires sont situés en dehors de l'Espace économique européen, des mesures appropriées sont mises en place conformément à la réglementation applicable afin d'encadrer les éventuels transferts de données."}, {"t": "Vos droits", "p": "Conformément à la réglementation applicable, vous pouvez disposer de différents droits concernant vos données personnelles, notamment :\n\n• un droit d'accès ;\n• un droit de rectification ;\n• un droit à l'effacement, dans les conditions prévues par la réglementation ;\n• un droit à la limitation du traitement ;\n• un droit d'opposition, dans certaines situations ;\n• un droit à la portabilité, lorsque celui-ci est applicable.\n\nVous pouvez également introduire une réclamation auprès de l'autorité de contrôle compétente, notamment la CNIL en France."}, {"t": "Cookies et technologies similaires", "p": "Le site peut utiliser des cookies ou technologies similaires.\n\nLes cookies strictement nécessaires au fonctionnement du site peuvent être utilisés lorsque la réglementation le permet. Les autres cookies, notamment ceux utilisés à des fins de mesure d'audience, de publicité ou de personnalisation, sont soumis aux règles de consentement applicables.\n\nLes informations relatives aux cookies peuvent être présentées dans un module de gestion du consentement accessible depuis le site."}, {"t": "Sécurité", "p": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées afin de protéger les données collectées contre la perte, l'utilisation abusive, l'accès non autorisé, la modification ou la divulgation non autorisée."}, {"t": "Modification de la politique", "p": "Cette politique de confidentialité peut être modifiée afin de tenir compte de l'évolution du site, de nos pratiques ou de la réglementation applicable.\n\nLa date de dernière mise à jour est indiquée en haut de cette page."}];
+  function fillPrivacy(b){
+    b.textContent="";
+    function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+    b.appendChild(el("div","pvm","Dernière mise à jour : "+PRIVACY_DATE));
+    b.appendChild(el("p","pvi",PRIVACY_INTRO));
+    PRIVACY.forEach(function(x,i){
+      var d=el("section","pvs"),t=el("div","pvt");
+      t.appendChild(el("h3",null,x.t));
+      x.p.split("\n\n").forEach(function(blk){
+        var ls=blk.split("\n");
+        if(ls.every(function(l){return l.indexOf("• ")===0})){var u=el("ul");ls.forEach(function(l){u.appendChild(el("li",null,l.slice(2)))});t.appendChild(u)}
+        else t.appendChild(el("p",null,ls.join(" ")));
+      });
+      d.appendChild(el("span","pvn",String(i+1).padStart(2,"0")));d.appendChild(t);b.appendChild(d);
+    });
+    b.scrollTop=0;
+  }
+  var pvd=$("privdlg");
+  $("privBtn").addEventListener("click",function(){fillPrivacy($("privBody"));pvd.showModal()});
+  $("privX").addEventListener("click",function(){pvd.close()});
+  pvd.addEventListener("click",function(e){if(e.target===pvd)pvd.close()});
+
+  /* Consentement à la première visite */
+  var CK="nerv-consent-v1",gate=$("gate");
+  function osName(u){return /Windows/i.test(u)?"Windows":/Android/i.test(u)?"Android":/iPhone|iPad|iPod/i.test(u)?"iOS":/Mac OS X|Macintosh/i.test(u)?"macOS":/CrOS/i.test(u)?"ChromeOS":/Linux/i.test(u)?"Linux":"Inconnu"}
+  function browserName(u){return /Edg\//.test(u)?"Edge":/OPR\/|Opera/.test(u)?"Opera":/Firefox\//.test(u)?"Firefox":/Chrome\//.test(u)?"Chrome":/Safari\//.test(u)?"Safari":"Inconnu"}
+  function consentRec(){
+    var u=navigator.userAgent||"",tz="";
+    try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||""}catch(e){}
+    return {ts:new Date().toISOString(),os:osName(u),browser:browserName(u),lang:navigator.language||"",tz:tz,screen:(screen.width||0)+"x"+(screen.height||0),ua:u.slice(0,300),policy:PRIVACY_DATE,accepted:true};
+  }
+  function gateCheck(){
+    var ok=false;try{ok=!!localStorage.getItem(CK)}catch(e){}
+    if(ok||gate.open)return;
+    fillPrivacy($("gateBody"));$("gmain").hidden=false;$("gden").hidden=true;gate.showModal();
+  }
+  gate.addEventListener("cancel",function(e){e.preventDefault()});
+  $("gAccept").addEventListener("click",function(){
+    var rec=consentRec();try{localStorage.setItem(CK,rec.ts)}catch(e){}
+    try{fetch(COLLECT_URL,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(rec),keepalive:true}).catch(function(){})}catch(e){}
+    gate.close();
+  });
+  $("gRefuse").addEventListener("click",function(){
+    $("gmain").hidden=true;$("gden").hidden=false;
+    try{window.location.replace("about:blank")}catch(e){}
+  });
+  $("gRetry").addEventListener("click",function(){$("gden").hidden=true;$("gmain").hidden=false;$("gateBody").scrollTop=0});
+
+  var dlg=$("dlg"),form=$("form"),pdlg=$("pdlg");
+  function openProfile(){
+    if(online&&!me){openAuth("login");return}
+    $("perr").hidden=true;var m=mine();pick=m?num(m.avatar,0,AV.length-1):0;$("pname").value=m?m.name:"";$("ppriv").checked=!!(m&&m.private);$("ppl").hidden=!(online&&me);
+    var acc=online&&!!me;$("pmail").hidden=!acc;$("pacct").hidden=!acc;if(acc)$("pmail").textContent=me.email;
+    drawPicks();pdlg.showModal()}
+  $("meBtn").addEventListener("click",openProfile);
+  $("pcancel").addEventListener("click",function(){pdlg.close()});
+  $("picks").addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;pick=+b.dataset.i;drawPicks()});
+  $("pform").addEventListener("submit",async function(e){
+    e.preventDefault();
+    var n=$("pname").value.trim(),err=$("perr"),btn=$("psave");err.hidden=true;
+    function fail(t){err.textContent=t;err.hidden=false}
+    if(!/^[A-Za-z0-9_-]{3,20}$/.test(n)){fail("Le pseudo doit faire 3 à 20 caractères : lettres, chiffres, _ ou -.");return}
+    var key=n.toLowerCase();
+    if(online){
+      if(!me){pdlg.close();openAuth("login");return}
+      var o=Object.assign({name:"",avatar:0,mangas:[]},members[uid]||{},{name:n,key:key,avatar:pick,private:$("ppriv").checked}),r=null;
+      btn.disabled=true;saving++;
+      try{r=await api("/me/profile",{method:"PUT",body:{name:n,avatar:pick,mangas:o.mangas||[],private:$("ppriv").checked}})}catch(x){r=null}
+      saving--;btn.disabled=false;
+      if(!r){fail("Le serveur ne répond pas. Réessaie dans un instant.");return}
+      if(r.status===409){fail("Ce pseudo est déjà pris. Choisis-en un autre.");return}
+      if(r.status===401){clearSession();render();pdlg.close();openAuth("login");return}
+      if(!r.ok){fail(r.data.error||"Enregistrement impossible.");return}
+      members[uid]=o;me.name=n;me.avatar=pick;render();pdlg.close();return;
+    }
+    update({name:n,key:key,avatar:pick});pdlg.close();
+  });
+
+  /* Comptes : connexion, inscription, déconnexion, suppression */
+  var adlg=$("adlg"),amode="login";
+  function setAuthMode(m){
+    amode=m;var reg=m==="register";
+    document.querySelectorAll("#atabs .tab").forEach(function(b){b.setAttribute("aria-pressed",String(b.dataset.m===m))});
+    $("atitle").textContent=reg?"Créer un compte":"Connexion";
+    $("aname_l").hidden=!reg;$("achk_l").hidden=!reg;$("apass_h").hidden=!reg;
+    $("apass").autocomplete=reg?"new-password":"current-password";
+    $("asubmit").textContent=reg?"Créer mon compte":"Se connecter";
+    $("aerr").hidden=true;
+  }
+  function openAuth(m){
+    $("apass").value="";$("achk").checked=false;setAuthMode(m||"login");
+    if(!adlg.open)adlg.showModal();
+  }
+  $("atabs").addEventListener("click",function(e){var b=e.target.closest(".tab");if(b)setAuthMode(b.dataset.m)});
+  $("acancel").addEventListener("click",function(){adlg.close()});
+  $("apriv").addEventListener("click",function(e){e.preventDefault();fillPrivacy($("privBody"));pvd.showModal()});
+  async function loadMembers(){
+    var r=await api("/members");
+    if(!r.ok)throw new Error("members");
+    var n={};(r.data.members||[]).forEach(function(x){n[String(x.id)]=x});members=n;
+    if(!viewing||!members[viewing])viewing=members[uid]?uid:(Object.keys(n)[0]||null);
+    render();
+  }
+  async function startSession(d){
+    token=d.token;me=d.user;uid=String(me.id);viewing=uid;
+    try{localStorage.setItem(TOK,token)}catch(e){}
+    try{await loadMembers()}catch(e){members[uid]={name:me.name,avatar:me.avatar,mangas:[]};render()}
+  }
+  $("aform").addEventListener("submit",async function(e){
+    e.preventDefault();
+    var err=$("aerr"),btn=$("asubmit");err.hidden=true;
+    function fail(t){err.textContent=t;err.hidden=false}
+    var email=$("aemail").value.trim(),pw=$("apass").value,reg=amode==="register",name=$("aname").value.trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){fail("Adresse e-mail invalide.");return}
+    if(reg){
+      if(!/^[A-Za-z0-9_-]{3,20}$/.test(name)){fail("Le pseudo doit faire 3 à 20 caractères : lettres, chiffres, _ ou -.");return}
+      if(pw.length<8){fail("Le mot de passe doit faire au moins 8 caractères.");return}
+      if(!$("achk").checked){fail("Tu dois accepter la politique de confidentialité pour créer un compte.");return}
+    }else if(!pw){fail("Entre ton mot de passe.");return}
+    btn.disabled=true;
+    try{
+      var r=await api(reg?"/auth/register":"/auth/login",{method:"POST",body:reg?{email:email,name:name,password:pw}:{email:email,password:pw}});
+      if(!r.ok){fail(r.data.error||"Une erreur est survenue. Réessaie.");return}
+      $("apass").value="";adlg.close();await startSession(r.data);
+    }catch(x){fail("Le serveur ne répond pas. Réessaie dans un instant.")}
+    finally{btn.disabled=false}
+  });
+  $("plogout").addEventListener("click",async function(){
+    try{await api("/auth/logout",{method:"POST",body:{}})}catch(e){}
+    clearSession();pdlg.close();render();
+  });
+  $("pdel").addEventListener("click",async function(){
+    if(!confirm("Supprimer définitivement ton compte et toute ta bibliothèque ? Cette action est irréversible."))return;
+    var pw=prompt("Pour confirmer, entre ton mot de passe :");if(pw===null)return;
+    var r;try{r=await api("/me",{method:"DELETE",body:{password:pw}})}catch(x){alert("Le serveur ne répond pas. Réessaie dans un instant.");return}
+    if(!r.ok){alert(r.data.error||"Suppression impossible.");return}
+    clearSession();pdlg.close();viewing=null;
+    try{await loadMembers()}catch(e){members={};render()}
+    alert("Ton compte a été supprimé.");
+  });
+
+  $("openAdd").addEventListener("click",function(){if(!mine())return openProfile();form.reset();dlg.showModal()});
+  $("cancel").addEventListener("click",function(){dlg.close()});
+
+  function shrink(file,cb){
+    var r=new FileReader();
+    r.onload=function(){var im=new Image();im.onload=function(){
+      var w=240,h=Math.round(im.height*w/im.width),c=document.createElement("canvas");
+      c.width=w;c.height=h;c.getContext("2d").drawImage(im,0,0,w,h);cb(c.toDataURL("image/jpeg",.7))};
+      im.onerror=function(){cb(null)};im.src=r.result};
+    r.onerror=function(){cb(null)};r.readAsDataURL(file);
+  }
+  form.addEventListener("submit",function(e){
+    e.preventDefault();
+    var f=new FormData(form),file=f.get("cover");
+    var x={id:String(Date.now()),title:(f.get("title")||"").trim(),author:(f.get("author")||"").trim(),genre:(f.get("genre")||"").trim(),
+      url:"",desc:(f.get("desc")||"").trim(),kind:f.get("kind"),status:f.get("status"),chapters:num(f.get("chapters"),0,99999),rating:num(f.get("rating"),1,5),hue:Math.floor(Math.random()*360)};
+    if(!x.title)return;
+    var fu=fixUrl(f.get("url"));if(fu===null){alert("Le lien URL n'est pas valide (ex : https://exemple.com).");return}x.url=fu;
+    function done(){var m=mine();update({mangas:[x].concat(m?m.mangas:[])});dlg.close()}
+    if(file&&file.size){shrink(file,function(d){if(d)x.img=d;done()})}else done();
+  });
+
+  async function init(){
+    gateCheck();
+    document.querySelectorAll(".ps").forEach(function(el){el.insertAdjacentHTML("afterbegin",'<div class="art">'+art(el.dataset.k)+'</div>')});
+    chips();render();
+    try{token=localStorage.getItem(TOK)||null}catch(e){token=null}
+    try{
+      online=true;
+      if(token){
+        var r=await api("/me");
+        if(r.ok){me=r.data.user;uid=String(me.id)}
+        else if(r.status===401){clearSession()}
+      }
+      await loadMembers();
+      document.addEventListener("visibilitychange",function(){if(online&&!document.hidden&&!saving)loadMembers().catch(function(){})});
+    }catch(e){
+      online=false;token=null;me=null;members={};uid="local";
+      try{var s=localStorage.getItem(KEY);if(s)members.local=JSON.parse(s)}catch(e2){}
+      viewing=members.local?"local":null;$("note").hidden=false;render();
+    }
+  }
+  /* ===== Amis, abonnés & recommandations (données sur le serveur) ===== */
+  var soc={friends:[],follows:[]},req={incoming:[],outgoing:[]},recItem=null,recv=null,lastMe="",stab="req",sw=null,sdlg=$("sdlg");
+  function fname(id){return (members[id]&&members[id].name)||"ton ami"}
+  function friendsOf(id){return soc.friends.filter(function(e){return e[0]===id||e[1]===id}).map(function(e){return e[0]===id?e[1]:e[0]}).filter(function(x){return members[x]})}
+  function followingOf(id){return soc.follows.filter(function(e){return e[0]===id}).map(function(e){return e[1]}).filter(function(x){return members[x]})}
+  function followersOf(id){return soc.follows.filter(function(e){return e[1]===id}).map(function(e){return e[0]}).filter(function(x){return members[x]})}
+  function myFriends(){return uid?friendsOf(uid):[]}
+  async function loadSoc(){
+    if(!online)return;
+    try{
+      var r=await api("/social/list",{method:"POST",body:{}});
+      if(r.ok)soc={friends:r.data.friends||[],follows:r.data.follows||[]};
+      if(me){var q=await api("/social/requests",{method:"POST",body:{}});if(q.ok)req={incoming:q.data.incoming||[],outgoing:q.data.outgoing||[]}}
+      else req={incoming:[],outgoing:[]};
+    }catch(e){}
+    friendUI();
+  }
+  async function act(path,id){
+    var r=await api(path,{method:"POST",body:{id:Number(id)}});
+    if(!r.ok)alert(r.data.error||"Une erreur est survenue (le serveur a-t-il été mis à jour ?).");
+    await loadSoc();
+  }
+  function friendUI(){
+    var ok=!!(online&&me&&viewing&&viewing!==uid&&members[viewing]),fb=$("friendBtn"),fo=$("followBtn");
+    fb.hidden=fo.hidden=!ok;
+    if(ok){
+      var isF=myFriends().indexOf(viewing)>-1,pin=req.incoming.indexOf(viewing)>-1,pout=req.outgoing.indexOf(viewing)>-1;
+      fb.textContent=isF?"✓ Amis (retirer)":pin?"Accepter la demande":pout?"⏳ Demande envoyée (annuler)":"＋ Ajouter en ami";
+      fo.textContent=followingOf(uid).indexOf(viewing)>-1?"✓ Abonné":"Suivre";
+    }
+    var v=viewing&&members[viewing],pc=$("pcard");
+    pc.hidden=!v||!online;
+    if(v){
+      var lk=!!v.locked,c=function(f){return lk?"🔒":f(viewing).length};
+      pc.innerHTML='<div class="pc-top">'+av(v.avatar,64)+'<div><h3>'+esc(v.name||"Membre")+(v.private?' <span class="lockb">🔒 Privé</span>':'')+(viewing===uid?' <small>(moi)</small>':'')+'</h3><div class="pc-stats"'+(lk?' style="pointer-events:none"':'')+'><button type="button" data-t="fr">'+c(friendsOf)+' ami(s)</button><button type="button" data-t="fs">'+c(followersOf)+' abonné(s)</button><button type="button" data-t="fg">'+c(followingOf)+' abonnement(s)</button></div></div></div>'+(lk?'<p class="cinfo" style="margin:10px 0 0">🔒 Ce profil est privé : seuls ses amis voient sa bibliothèque et ses relations. Envoie-lui une demande d\'ami !</p>':'');
+    }
+    var sb=$("socBtn");sb.hidden=!(online&&me);
+    sb.textContent="👥 Mes relations"+(req.incoming.length?" ("+req.incoming.length+")":"");
+    var fr=myFriends(),bar=$("fbar");
+    bar.hidden=!fr.length;
+    bar.innerHTML=fr.length?'<span class="flab">Mes amis :</span>'+fr.map(function(id){var x=members[id];return '<button class="mem" data-id="'+esc(id)+'">'+av(x.avatar,28)+'<span><b>'+esc(x.name||"Membre")+'</b></span></button>'}).join(""):"";
+    $("crec").hidden=!(online&&me)||!$("cedit").hidden;
+    if(sdlg.open)drawSoc();
+  }
+  function row(id,btns){var x=members[id];return '<div class="srow" data-id="'+esc(id)+'">'+av(x.avatar,34)+'<span class="nm">'+esc(x.name||"Membre")+'</span>'+btns+'</div>'}
+  function drawSoc(){
+    var own=sw===uid;if(!members[sw]){sdlg.close();return}
+    if(!own&&stab==="req")stab="fr";
+    $("stitle").textContent=own?"Mes relations":"Profil de "+(members[sw].name||"Membre");
+    var ts=[["fr","Amis ("+friendsOf(sw).length+")"],["fg","Abonnements ("+followingOf(sw).length+")"],["fs","Abonnés ("+followersOf(sw).length+")"]];
+    if(own)ts.unshift(["req","Demandes"+(req.incoming.length?" ("+req.incoming.length+")":"")]);
+    $("stabs").innerHTML=ts.map(function(t){return '<button type="button" class="btn ghost stab" data-t="'+t[0]+'" aria-pressed="'+(t[0]===stab)+'">'+t[1]+'</button>'}).join("");
+    var h="",ex=function(x){return members[x]};
+    if(stab==="req"){
+      var i=req.incoming.filter(ex),o=req.outgoing.filter(ex);
+      h=(i.length?'<p class="cinfo">Demandes reçues</p>'+i.map(function(id){return row(id,'<button type="button" class="btn" data-a="accept">Accepter</button><button type="button" class="btn ghost" data-a="decline">Refuser</button>')}).join(""):'<p class="cinfo">Aucune demande reçue.</p>')
+       +(o.length?'<p class="cinfo">Demandes envoyées</p>'+o.map(function(id){return row(id,'<button type="button" class="btn ghost" data-a="cancel">Annuler</button>')}).join(""):"");
+    }else{
+      var l=stab==="fr"?friendsOf(sw):stab==="fg"?followingOf(sw):followersOf(sw);
+      h=l.length?l.map(function(id){return row(id,"")}).join(""):'<p class="cinfo">Personne pour l\'instant.</p>';
+    }
+    $("slist").innerHTML=h;
+  }
+  var _r=render;render=function(){_r();var k=online&&me?String(me.id):"";if(k!==lastMe){lastMe=k;loadSoc()}friendUI()};
+  var _se=setEdit;setEdit=function(on){_se(on);friendUI()};
+  $("friendBtn").addEventListener("click",function(){
+    if(!viewing)return;
+    var isF=myFriends().indexOf(viewing)>-1,pin=req.incoming.indexOf(viewing)>-1,pout=req.outgoing.indexOf(viewing)>-1;
+    if(isF){if(confirm("Retirer "+fname(viewing)+" de tes amis ?"))act("/social/friend/remove",viewing)}
+    else if(pin)act("/social/friend/accept",viewing);
+    else if(pout)act("/social/friend/cancel",viewing);
+    else act("/social/friend",viewing);
+  });
+  $("followBtn").addEventListener("click",function(){if(viewing)act(followingOf(uid).indexOf(viewing)>-1?"/social/unfollow":"/social/follow",viewing)});
+  $("socBtn").addEventListener("click",function(){sw=uid;stab=req.incoming.length?"req":"fr";drawSoc();sdlg.showModal();loadSoc()});
+  $("pcard").addEventListener("click",function(e){var b=e.target.closest("[data-t]");if(!b||!viewing)return;sw=viewing;stab=b.dataset.t;drawSoc();sdlg.showModal()});
+  $("sclose").addEventListener("click",function(){sdlg.close()});
+  $("stabs").addEventListener("click",function(e){var b=e.target.closest(".stab");if(!b)return;stab=b.dataset.t;drawSoc()});
+  $("slist").addEventListener("click",function(e){
+    var r=e.target.closest(".srow");if(!r)return;var id=r.dataset.id,b=e.target.closest("[data-a]");
+    if(b){act("/social/friend/"+b.dataset.a,id);return}
+    viewing=id;sdlg.close();render();$("shelfTitle").scrollIntoView({behavior:"smooth",block:"start"});
+  });
+  $("fbar").addEventListener("click",function(e){var b=e.target.closest(".mem");if(!b)return;viewing=b.dataset.id;render();$("shelfTitle").scrollIntoView({behavior:"smooth",block:"start"})});
+  document.addEventListener("visibilitychange",function(){if(!document.hidden)loadSoc()});
+  setInterval(function(){if(!document.hidden)loadSoc()},60000);
+  var rdlg=$("rdlg");
+  $("crec").addEventListener("click",function(){
+    var x=curItem();if(!x)return;recItem=x;
+    var list=myFriends();
+    $("rfriend").innerHTML=list.map(function(id){return '<option value="'+esc(id)+'">'+esc(members[id].name||"Membre")+'</option>'}).join("");
+    $("rempty").hidden=!!list.length;$("rform").hidden=!list.length;
+    $("rcopy").hidden=!list.length;$("rshare").hidden=!list.length||!navigator.share;
+    $("rmsg").value="";$("rstat").textContent="";rdlg.showModal();
+  });
+  function recText(){
+    var x=recItem,m=mine(),d={t:x.title,k:kind(x),a:x.author||"",g:x.genre||"",f:m?m.name:"",n:$("rmsg").value.trim().slice(0,200)};
+    if(okUrl(x.url))d.u=x.url;
+    var j=btoa(unescape(encodeURIComponent(JSON.stringify(d)))).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"");
+    var link=location.origin+location.pathname+"?reco="+j;
+    return fname($("rfriend").value)+", "+(d.f||"un ami")+" te conseille "+x.title+" ("+d.k+") sur Nerv Team : "+link;
+  }
+  $("rcopy").addEventListener("click",function(){
+    var t=recText();
+    if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(function(){$("rstat").textContent="Lien copié ! Envoie-le à ton ami."},function(){prompt("Copie ce message :",t)});
+    else prompt("Copie ce message :",t);
+  });
+  $("rshare").addEventListener("click",function(){navigator.share({text:recText()}).catch(function(){})});
+  $("rclose").addEventListener("click",function(){rdlg.close()});
+  var vdlg=$("vdlg");
+  function showReco(){
+    var p=new URLSearchParams(location.search).get("reco");if(!p)return;
+    var d;try{d=JSON.parse(decodeURIComponent(escape(atob(p.replace(/-/g,"+").replace(/_/g,"/")))))}catch(e){return}
+    if(!d||typeof d.t!=="string"||!d.t)return;
+    d.k=KJ[d.k]?d.k:"Manga";recv=d;
+    $("vfrom").textContent=String(d.f||"Un ami").slice(0,40)+" te conseille";
+    $("vtitle").textContent=d.t.slice(0,80);
+    $("vmeta").textContent=d.k+(d.a?" · "+String(d.a).slice(0,60):"")+(d.g?" · "+String(d.g).slice(0,30):"");
+    $("vnote").textContent=d.n?"« "+String(d.n).slice(0,200)+" »":"";$("vnote").hidden=!d.n;
+    vdlg.showModal();
+    try{history.replaceState(null,"",location.pathname)}catch(e){}
+  }
+  $("vclose").addEventListener("click",function(){vdlg.close()});
+  $("vadd").addEventListener("click",function(){
+    if(!recv)return;
+    if(online&&!me){vdlg.close();openAuth("login");return}
+    var m=mine(),u=recv.u?fixUrl(String(recv.u)):"";
+    var x={id:String(Date.now()),kind:recv.k,title:recv.t.slice(0,80),author:String(recv.a||"").slice(0,60),genre:String(recv.g||"").slice(0,30),desc:"Conseillé par "+String(recv.f||"un ami").slice(0,40)+(recv.n?" : "+String(recv.n).slice(0,200):""),status:"À découvrir",chapters:0,rating:3,hue:Math.floor(Math.random()*360)};
+    if(u&&okUrl(u))x.url=u;
+    update({mangas:[x].concat(m?m.mangas:[])});vdlg.close();
+  });
+  /* ===== Suggestions d'œuvres entre amis (nom uniquement) ===== */
+  var sug={received:[],sent:[],unseen:0},sgtab="in",sgdlg=$("sgdlg");
+  function sugName(id){return (members[id]&&members[id].name)||"Un ami"}
+  async function loadSug(){
+    if(!online||!me){sug={received:[],sent:[],unseen:0};sugUI();return}
+    try{
+      var r=await api("/suggest/inbox",{method:"POST",body:{}});
+      if(r.ok)sug={received:r.data.received||[],sent:r.data.sent||[],unseen:num(r.data.unseen,0,999)};
+    }catch(e){}
+    sugUI();
+    if(sgdlg.open&&sgtab==="in")markSeen();
+  }
+  function sugUI(){
+    var b=$("sugBtn");b.hidden=!(online&&me);
+    b.textContent="💡 Suggestions"+(sug.unseen?" ("+sug.unseen+")":"");
+    $("sugFriendBtn").hidden=!(online&&me&&viewing&&viewing!==uid&&members[viewing]&&myFriends().indexOf(viewing)>-1);
+    if(sgdlg.open)drawSug();
+  }
+  function fillFriends(){
+    var s=$("sgfriend"),v=s.value,l=myFriends();
+    s.innerHTML=l.map(function(id){return '<option value="'+esc(id)+'">'+esc(sugName(id))+'</option>'}).join("");
+    if(l.indexOf(v)>-1)s.value=v;
+    $("sgempty").hidden=!!l.length;$("sgform").hidden=!l.length;
+  }
+  function sugRow(x,mode){
+    var m=members[x.who];
+    var nm='<span class="sgnm"><b>'+esc(x.title)+(mode==="in"&&!x.seen?'<span class="sgnew">Nouveau</span>':'')+'</b><small>'+esc(KJ[x.kind]?x.kind:"Manga")+(mode==="in"?' · de ':' · à ')+esc(m.name||"Membre")+'</small></span>';
+    var bt=mode==="in"?'<button type="button" class="btn" data-a="add">Ajouter à ma bibliothèque</button><button type="button" class="btn ghost" data-a="del">Ignorer</button>':'<button type="button" class="btn ghost" data-a="del">Retirer</button>';
+    return '<div class="srow" data-sid="'+esc(x.id)+'">'+av(m.avatar,34)+nm+bt+'</div>';
+  }
+  function drawSug(){
+    var tabs=[["in","Reçues"+(sug.unseen?" ("+sug.unseen+")":"")],["out","Envoyées"],["new","Suggérer"]];
+    $("sgtabs").innerHTML=tabs.map(function(t){return '<button type="button" class="btn ghost stab" data-t="'+t[0]+'" aria-pressed="'+(t[0]===sgtab)+'">'+t[1]+'</button>'}).join("");
+    var isNew=sgtab==="new";
+    $("sgnew").hidden=!isNew;$("sglist").hidden=isNew;
+    if(isNew){fillFriends();return}
+    var l=(sgtab==="in"?sug.received:sug.sent).filter(function(x){return members[x.who]});
+    $("sglist").innerHTML=l.length?l.map(function(x){return sugRow(x,sgtab)}).join(""):
+      '<p class="cinfo">'+(sgtab==="in"?"Aucune suggestion reçue pour l'instant.":"Tu n'as rien suggéré pour l'instant.")+'</p>';
+  }
+  function markSeen(){
+    if(!sug.unseen)return;
+    sug.unseen=0; /* x.seen reste tel quel : le badge « Nouveau » s'affiche jusqu'à la prochaine actualisation */
+    api("/suggest/seen",{method:"POST",body:{}}).catch(function(){});
+    sugUI();
+  }
+  function openSug(tab,friendId){
+    sgtab=tab;$("sgstat").textContent="";
+    drawSug();
+    if(tab==="new"&&friendId&&myFriends().indexOf(friendId)>-1)$("sgfriend").value=friendId;
+    if(!sgdlg.open)sgdlg.showModal();
+    loadSug();
+  }
+  async function sugDelete(id){
+    try{await api("/suggest/delete",{method:"POST",body:{id:Number(id)}})}catch(e){}
+    await loadSug();
+  }
+  $("sugBtn").addEventListener("click",function(){openSug("in")});
+  $("sugFriendBtn").addEventListener("click",function(){openSug("new",viewing)});
+  $("sgclose").addEventListener("click",function(){sgdlg.close()});
+  $("sgtabs").addEventListener("click",function(e){
+    var b=e.target.closest(".stab");if(!b)return;
+    sgtab=b.dataset.t;drawSug();
+    if(sgtab==="in")markSeen();
+  });
+  $("sglist").addEventListener("click",function(e){
+    var b=e.target.closest("[data-a]");if(!b)return;
+    var row=b.closest(".srow"),sid=row&&row.dataset.sid;if(!sid)return;
+    if(b.dataset.a==="del"){sugDelete(sid);return}
+    var it=sug.received.filter(function(x){return String(x.id)===sid})[0];if(!it)return;
+    var m=mine(),ex=m&&m.mangas.some(function(t){return fold(t.title)===fold(it.title)});
+    if(ex){alert("« "+it.title+" » est déjà dans ta bibliothèque.")}
+    else{
+      var x={id:String(Date.now()),kind:KJ[it.kind]?it.kind:"Manga",title:it.title.slice(0,80),author:"",genre:"",desc:"Suggéré par "+sugName(it.who).slice(0,40),status:"À découvrir",chapters:0,rating:3,hue:Math.floor(Math.random()*360)};
+      update({mangas:[x].concat(m?m.mangas:[])});
+    }
+    sugDelete(sid);
+  });
+  $("sgtitle").addEventListener("keydown",function(e){if(e.key==="Enter"){e.preventDefault();$("sgsend").click()}});
+  $("sgsend").addEventListener("click",async function(){
+    var st=$("sgstat"),btn=$("sgsend"),id=$("sgfriend").value,t=$("sgtitle").value.replace(/\s+/g," ").trim();
+    function say(txt,ok){st.textContent=txt;st.className=ok?"cinfo":"err"}
+    if(!id){say("Choisis un ami.",false);return}
+    if(!t){say("Écris le nom de l'œuvre.",false);return}
+    if(/https?:|www\./i.test(t)){say("Pas de lien : juste le nom de l'œuvre.",false);return}
+    btn.disabled=true;
+    try{
+      var r=await api("/suggest/send",{method:"POST",body:{id:Number(id),title:t,kind:$("sgkind").value}});
+      if(r.status===401){clearSession();render();sgdlg.close();openAuth("login");return}
+      if(!r.ok){say(r.data.error||"Envoi impossible. Réessaie.",false);return}
+      say(r.data.dup?"Tu as déjà suggéré cette œuvre à "+sugName(id)+".":"Suggestion envoyée à "+sugName(id)+" ✓",true);
+      if(!r.data.dup)$("sgtitle").value="";
+      loadSug();
+    }catch(x){say("Le serveur ne répond pas. Réessaie dans un instant.",false)}
+    finally{btn.disabled=false}
+  });
+  /* depuis la fenêtre « Conseiller » d'un titre : envoi direct (le titre seul est transmis) */
+  $("crec").addEventListener("click",function(){$("rsend").hidden=!myFriends().length});
+  $("rsend").addEventListener("click",async function(){
+    if(!recItem)return;var id=$("rfriend").value,st=$("rstat");if(!id)return;
+    try{
+      var r=await api("/suggest/send",{method:"POST",body:{id:Number(id),title:recItem.title,kind:kind(recItem)}});
+      st.textContent=r.ok?(r.data.dup?"Déjà suggéré à cet ami.":"Suggestion envoyée ! (seul le titre est transmis)"):(r.data.error||"Envoi impossible.");
+      if(r.ok)loadSug();
+    }catch(x){st.textContent="Le serveur ne répond pas. Réessaie dans un instant."}
+  });
+  var _ls=loadSoc;loadSoc=async function(){await _ls();await loadSug()};
+  var _fu=friendUI;friendUI=function(){_fu();sugUI()};
+  /* ===== fin amis ===== */
+  init().then(showReco);
+})();
+</script>
+</body>
+</html>
